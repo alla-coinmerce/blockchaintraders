@@ -1,0 +1,1 @@
+<img src="{{ __("/assets/images/afm/afm2_vrijstelling_dubbel_english-1768x122.jpg") }}" width="100%" alt="Let op! U belegt buiten AFM-toezicht. Geen vergunning- en prospectusplicht voor deze activiteit.  ">

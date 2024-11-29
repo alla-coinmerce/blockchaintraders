@@ -1,0 +1,44 @@
+#sticky-banner {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3db4f6;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: "DM Sans", sans-serif;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner-content img {
+    margin-right: 10px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sticky-banner a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+}
+.logos img {
+    height: 40px;
+    margin: 0;
+}

@@ -1,0 +1,7 @@
+.postalLatestUpdate {
+    color: var(--bct-black-semi-transparant);
+}
+
+.postalLatestUpdate b {
+    font-weight: 500;
+}

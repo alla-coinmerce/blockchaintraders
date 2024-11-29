@@ -1,0 +1,55 @@
+#request_info_form_top {
+    position: relative;
+}
+
+.special-offer-sticker {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    width: 160px;
+}
+
+@media (min-width: 700px) {
+    .special-offer-sticker {
+        top: 15px;
+        right: -15px;
+        width: 180px;
+    }
+}
+
+.special-offer-sticker-content-container {
+    background: linear-gradient(270deg, #4CAF50 0%, #419745 100%);
+    padding: 5px 5px 2px 5px;
+}
+
+.special-offer-sticker-content {
+    margin: 0;
+    color: white !important;
+    font-size: 10px !important;
+    line-height: 13px !important;
+    letter-spacing: 1.4px !important;
+}
+
+.special-offer-sticker-offer {
+    color: white !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.special-offer-sticker-corner-container {
+    width: 100%;
+}
+
+.special-offer-sticker-corner {
+    float: right;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(315deg, transparent 0%, transparent 50%, #478339 50%, #478339 100%);
+}
+
+@media (min-width: 700px) {
+    .special-offer-sticker-corner {
+        width: 15px;
+        height: 15px;
+    }
+}

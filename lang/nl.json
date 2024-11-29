@@ -1,0 +1,655 @@
+{
+    "Dutch": "Nederlands",
+    "English": "Engels",
+    "Login": "Inloggen",
+
+    "Showing": " ",
+    "to": "tot",
+    "of": "van",
+    "results": "resultaten",
+
+    "Learn": "Educatie",
+
+    "Invest with BlockchainTraders?": "Ook beleggen bij BlockchainTraders?",
+    "Contact us to explore the possibilities.": "Neem contact met ons op en ontdek de mogelijkheden.",
+    "Get in touch": "Neem contact op",
+
+    "The :attribute must be at least :length characters and contain at least one uppercase character.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één hoofdletter bevatten.",
+    "The :attribute must be at least :length characters and contain at least one number.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één cijfer bevatten.",
+    "The :attribute must be at least :length characters and contain at least one special character.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één speciaal teken bevatten.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and one number.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één hoofdletter en één cijfer bevatten.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character and one special character.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één hoofdletter en één speciaal teken bevatten.",
+    "The :attribute must be at least :length characters and contain at least one uppercase character, one number, and one special character.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één hoofdletter, één cijfer en één speciaal teken bevatten.",
+    "The :attribute must be at least :length characters and contain at least one special character and one number.": "Het :attribute moet minimaal :length tekens bevatten en minimaal één speciaal teken en één cijfer bevatten.",
+    "The :attribute must be at least :length characters.": "Het :attribute moet minimaal :length karakters zijn.",
+
+    "Cryptocurrency Mutual Fund | BlockchainTraders | AFM registered": "Cryptocurrency beleggingsfonds | BlockchainTraders | AFM geregistreerd",
+    "The leading crypto investment fund | BlockchainTraders": "Het beste crypto beleggingsfonds | BlockchainTraders",
+    "crypto, investment fund, Bitcoin, Ethereum, DeFi, blockchain, cryptocurrency, fund": "crypto, beleggingsfonds, Bitcoin, Ethereum, DeFi, blockchain, cryptocurrency, fonds",
+    "AFM registered cryptocurrency fund. Safely invest in Blockchain ✓ Bitcoin ✓ Ethereum ✓ and DeFi ✓ according to our established strategy.": "AFM geregistreerd crypto fonds. Beleg op veilige wijze in Blockchain ✓ Bitcoin ✓ Ethereum ✓ en DeFi ✓ volgens onze vaste strategie.",
+
+    "About us | BlockchainTraders": "Over ons | BlockchainTraders",
+    "crypto, investment fund, Bitcoin, blockchain, cryptocurrency, Justin Kool, Michiel van der Steeg, Jeroen Cremer": "Crypto, beleggingsfonds, Bitcoin, blockchain, cryptocurrency, Justin Kool, Michiel van der Steeg, Jeroen Cremer",
+    "The founders of BlockchainTraders are highly regarded crypto specialists and they regularly speak at national and international blockchain events.": "De oprichters van BlockchainTraders zijn zeer gewaardeerde crypto specialisten en spreken geregeld op nationale en internationale blockchain evenementen.",
+
+    "Safety | BlockchainTraders": "Veiligheid | BlockchainTraders",
+    "cryptocurrency, fund, safety, blockchain, cyber security, Fireblocks, compliance, AFM, storage, regulation": "cryptocurrency, fonds, veiligheid, blockchain, cyber security, Fireblocks, compliance, AFM, opslag, regelgeving, wft, wwft",
+    "Thanks to the security measures of BlockchainTraders, you invest in crypto as safely as possible, and your investments comply with all laws and regulations.": "Door de veiligheidsmaatregelen van BlockchainTraders belegt u zo veilig mogelijk in crypto en voldoen uw beleggingen altijd aan alle wet- en regelgeving.",
+
+    "Funds | BlockchainTraders": "Fondsen | BlockchainTraders",
+    "cryptocurrency, funds, investment fund, crypto funds, mutual fund": "cryptocurrency, fondsen, beleggingsfonds, investeringsfonds",
+    "At BlockchainTraders you have the option to invest in aggressive or defensive mutual funds with solid strategies and successful track records.": "Bij BlockchainTraders heeft u de mogelijkheid om te beleggen in agressieve of defensieve beleggingsfondsen met solide strategieën en succesvolle trackrecords",
+
+    "Growth Fund | BlockchainTraders": "Growth Fund | BlockchainTraders",
+    "cryptocurrency, funds, investment fund, crypto funds, mutual fund, directional, active, Growth Fund": "cryptocurrency, beleggingsfonds, investeringsfonds, crypto fonds, AFM fonds, directioneel, actief, Growth Fund",
+    "A directional investment fund with a target return of 45%. Diversified and safe investing in the fastgrowing crypto market.": "Een directioneel beleggingsfonds met een streef rendement van 45%. Gediversifieerd en veilig beleggen in de snelgroeiende crypto markt.",
+
+    "Liquidity Fund | BlockchainTraders": "Liquidity Fund | BlockchainTraders",
+    "DeFi, investment fund, DeFi fund, mutual fund, non directional, market neutral, Liquidity Fund, USDC, USDT, stablecoin, liquidity mining, yield farming, liquidity pool": "DeFi, beleggingsfonds, investeringsfonds, DeFi fonds, AFM fonds, niet-directioneel, markt neutraal, Liquidity Fund, stablecoin, USDC, USDT, liquidity mining, yield farming, liquidity pool",
+    "A market neutral investment fund with a target return of 18%. Achieve a stable return through Decentralized Finance.": "Een markt neutraal beleggingsfonds met een streef rendement van 18%. Behaal een stabiel rendement door Decentralised Finance.",
+
+    "/assets/images/afm/afm2_vrijstelling_dubbel_english-1768x122.jpg": "/assets/images/afm/afm2_vrijstelling_dubbel-1768x122.jpg",
+
+    "About us": "Over ons",
+    "Funds": "Fondsen",
+    "Register": "Aanmelden",
+
+    "Contact": "Contact opnemen",
+
+    "Name": "Naam",
+    "First name": "Voornaam",
+    "Last name": "Achternaam",
+    "I want to invest": "Ik wil investeren",
+    "Enter your details and the desired investment amount. We will then contact you as soon as possible.": "Vul vrijblijvend uw gegevens en het gewenste beleggingsbedrag in. Wij zullen vervolgens zo snel mogelijk contact met u opnemen.",
+    "Message": "Bericht",
+    "Desired investment": "Gewenste investering",
+    "I want to receive the complete information package.": "Ik wil het volledige informatiepakket ontvangen.",
+    "Send": "Verstuur",
+    "optional": "optioneel",
+
+    "Type of Registration": "Soort inschrijving",
+    "Private": "Prive",
+    "Entity": "Entiteit",
+    "entity": "entiteit",
+    "General data": "Algemene gegevens",
+    "Entity name": "Naam entiteit",
+    "owner": "eigenaar / bestuurder",
+    "Address": "Adres",
+    "Business address entity": "Vestigingsadres entiteit",
+    "Postal code": "Postcode",
+    "Residence": "Woonplaats",
+    "City entity": "Plaats entiteit",
+    "Country": "Land",
+    "Nationality": "Nationaliteit",
+    "Date of birth": "Geboortedatum",
+    "Country of birth": "Geboorteland",
+    "Identity": "Identiteit",
+    "Copy of a valid proof of identity (passport, (European) driving license or Dutch identity card).": "Kopie van een geldig identiteisbewijs (paspoort, (Europees) rijbewijs of Nederlandse identiteitskaart).",
+    "Identification": "Identiteitsbewijs",
+    "Bank statement": "Bankafschrift",
+    "Copy of a bank statement or bill from an energy or utility company to verify the address.": "Kopie van een bankafschrift of rekening van een energie- of nutsbedrijf om het adres te verifiëren.",
+    "Chamber of Commerce extract": "KvK uittreksel",
+    "Copy of a recent Chamber of Commerce extract.": "Kopie van een recent KvK uittreksel.",
+    "UBO structure": "UBO structuur",
+    "Desired participation date": "Gewenste participatiedatum",
+    "Date": "Datum",
+    "Amount in Euros from 100,000 to 5,000,000+": "Bedrag in Euro's van 100.000 tot 5.000.000+",
+    "Living in the Netherlands": "Woonachtig in Nederland",
+    "Located in Netherlands": "Gevestigd in Nederland",
+    "Yes": "Ja",
+    "No": "Nee",
+    "Source of income": "Bron van inkomsten",
+    "Tax liability in the following countries": "Belastingplichting in de volgende landen",
+    "Citizen Service Number": "Burgerservicenummer",
+    "CoC number": "KvK nummer",
+    "Bank account number": "Bankrekeningnummer",
+    "Correct information statement": "Correcte informatie verklaring",
+    "Completed truthfully": "Naar waarheid ingevuld",
+    "I declare that all information provided to the Administrator of :fundname via this application form is true, accurate and complete to the best of my knowledge. I hereby undertake to promptly inform and provide the Administrator with any changed information within 30 days of any such change occurring which results in the information previously received becoming inaccurate or incomplete. Where a legal obligation exists, I hereby declare that the Administrator has my permission to share the information with the tax authorities and/or the relevant tax authorities.": "Ik verklaar dat alle informatie die via dit inschrijfformulier aan de Administrateur van :fundname wordt verstrekt, op waarheid berust en naar mijn beste weten accuraat en volledig is. Ik zeg hierbij toe de Administrateur onmiddellijk te informeren en te voorzien van gewijzigde informatie binnen 30 dagen nadat een dergelijke wijziging heeft plaatsgevonden en die ertoe leidt dat de eerder ontvangen informatie inaccuraat of onvolledig wordt. Indien er een wettelijke verplichting bestaat, verklaar ik hierbij dat de Administrateur mijn toestemming heeft om de informatie te delen met de belastingdienst en/of de relevante fiscale autoriteiten.",
+    "Confirmation of participation": "Bevestiging deelname",
+    "I hereby confirm that I wish to participate in :fundname for the above amount. I have read all the information on this registration form. By signing this application form, I declare that I am aware of and agree with the contents of the Fund's Information Memorandum and the Essential Information document. The documents are available from the Manager of the Fund, being BlockchainTraders B.V., Groenmarktkade 12HB, 1016 TA, Amsterdam.": "Hiermee bevestig ik voor bovengenoemd bedrag te willen deelnemen in :fundname. Ik heb alle informatie, op dit inschrijfformulier gelezen. Door ondertekening van dit inschrijfformulier verklaar ik bekend te zijn en akkoord te gaan met de inhoud van het Informatie Memorandum en het Essentiële-informatiedocument van het Fonds. De genoemde documenten zijn verkrijgbaar bij de Beheerder van het Fonds, zijnde BlockchainTraders B.V., Groenmarktkade 12HB, 1016 TA, Amsterdam.",
+
+    "Thank you!": "Bedankt!",
+    "Thanks:firstname. We have received your registration in good order.": "Bedankt:firstname. We hebben je inschrijving in goede orde ontvangen.",
+    "We will get to work for you and will contact you as soon as possible.": "We gaan voor je aan de slag en zullen zo snel mogelijk contact met je opnemen.",
+    "We have received your request and will contact you as soon as possible.": "Wij hebben uw aanvraag ontvangen en nemen zo snel mogelijk contact op.",
+
+    "Visiting address": "Bezoekadres",
+    "Fund manager": "Fondsbeheerder",
+    "Custodian Fund Assets": "Bewaarder Fondsactiva",
+
+    "Invest with <br>BlockchainTraders": "Beleg met <br>BlockchainTraders",
+    "Get started today. Invest in the leading<br>Dutch cryptocurrency investment fund.": "Start vandaag nog met beleggen bij hét<br>cryptocurrency beleggingsfonds",
+    "Active and profitable since 2018": "Actief en rendabel sinds 2018",
+    "Annualized return of": "Geannualiseerd rendement van",
+    
+    "Best Dutch Cryptofund": "Beste Nederlandse Cryptofonds",
+    "Registered investment fund": "Geregistreerd beleggingsfonds",
+    "Authority of the Financial Markets (AFM)": "Autoriteit Financiële Marken (AFM)",
+
+    "Reliable investment partner": "Betrouwbare beleggingspartner",
+    "The best security": "Goede beveiliging",
+    "Choose between aggressive/defensive funds": "Keuze agressieve/defensieve fondsen",
+    "Realtime insight": "Realtime inzicht",
+
+    "REQUEST INFORMATION": "VRAAG VRIJBLIJVEND INFORMATIE AAN",
+    "INVEST FUTURE FOCUSSED": "BELEG TOEKOMSTGERICHT",
+    "GET TO KNOW MORE": "KOM MEER TE WETEN",
+    "Optimal anticipation of trends and developments": "Optimaal inspelen op trends en ontwikkelingen",
+    "With a combination of blockchain expertise and actively managed cryptocurrency investment portfolios, BlockchainTraders now offers investors an opportunity to achieve high returns on these revolutionary technologies": 
+    "Met een combinatie van blockchainexpertise en actief beheerde beleggingsportefeuilles van cryptocurrencies biedt BlockchainTraders beleggers nu een kans om hoge rendementen op deze revolutionaire technologieën te behalen.",
+    
+    "The added value of investing with BlockchainTraders": "De toegevoegde waarde van beleggen bij BlockchainTraders",
+    "At the beginning of June, Justin Kool sat down with Harry Mens on behalf of BlockchainTraders to discuss why the BlockchainTraders Growth Fund is a valuable addition to your investment portfolio.":
+    "Begin juni zat Justin Kool namens BlockchainTraders aan tafel bij Harry Mens om te bespreken waarom het BlockchainTraders Growth Fund een waardevolle aanvulling is op uw beleggingsportfolio.",
+
+
+
+
+    "Our funds": "Onze fondsen",
+    "Return forecast:": "Rendementsprognose:",
+    "Investment strategy:": "Beleggingsstrategie:",
+    "Holding and trading crypto": "Aanhouden van- en handelen in crypto",
+    "Crypto Market:": "Cryptomarkt:",
+    "depends on the market": "Afhankelijk van de markt",
+    "Find out more": "Kom meer te weten",
+    "Independent": "Onafhankelijk",
+
+    "ABOUT US": "OVER ONS",
+    "Optimal response to trends and developments": "Optimaal inspelen op trends en ontwikkelingen",
+    "Combined 20+ years of industry experience and a proven track record.": "Gecombineerd 20+ jaar sector ervaring en een bewezen trackrecord.",
+    "BlockchainTraders was founded by Michiel van der Steeg and Justin Kool. Justin bought his first Bitcoin in 2014. In 2017, Justin and Michiel gained a lot of cryptocurrency experience. They outperformed the market by over 30% that year and established BlockchainTraders using their cryptocurrency proceeds.": 
+    "BlockchainTraders is opgericht door Michiel van der Steeg en Justin Kool. Justin kocht zijn eerste Bitcoin in 2014. In 2017 hebben Justin en Michiel samen veel cryptocurrency ervaring opgedaan. Zij hebben in dit jaar de markt met meer dan 30% outperformed en startten met hun cryptocurrency opbrengsten BlockchainTraders.",
+    "Read more": "Lees meer",
+    "Justin and Michiel": "Justin en Michiel",
+
+    "Invest in a professional manner in cryptocurrencies": "Beleg op een professionele wijze in cryptocurrencies",
+    "Receive more information about our funds without obligation. We will contact you as soon as possible.": "Ontvang geheel vrijblijvend meer informatie over onze fondsen. Wij nemen zo snel mogelijk contact op.",
+    
+    "Email address": "E-mailadres",
+    "Phone number": "Telefoonnummer",
+    "Receive immediately": "Ontvang direct",
+    "We respect your": "Wij respecteren je",
+    "Request information": "Vraag informatie aan",
+    "Request Brochure": "Vraag Brochure aan",
+
+    "Growing with the cryptocurrency market": "Meegroeien met de cryptocurrency markt",
+    "Diversified and safe investing in the fastgrowing crypto market.": "Groei mee met de snel ontwikkelende cryptocurrrency markt.",
+    "About the fund": "Over het fonds",
+    "BlockchainTraders Growth Fund started in 2018. This fund benefits from the growth and mass adoption of blockchain by investing in cryptocurrencies. BlockchainTraders Fund A manages to achieve good returns in an emerging market with its proven strategy.": "In 2018 is het BlockchainTraders Growth Fund van start gegaan. Dit fonds profiteert van de groei en massale adoptie van blockchain door in cryptocurrencies te investeren. Met een bewezen strategie weet BlockchainTraders Growth Fund een mooi rendement in een opkomende markt te realiseren.",
+    "Returns are generated by price gains on cryptocurrencies and by trading proceeds, making the fund in dominance a directional investment in cryptocurrencies. The return forecast is over 30% per annum with a 3-year investment horizon.": "Rendement wordt gegenereerd door koerswinsten op en door actief handelen in cryptocurrencies, daarmee is het fonds in dominantie een directionele belegging in cryptocurrencies. De rendementsprognose is meer dan 30% per jaar met een beleggingshorizon van 3 jaar.",
+    "RETURN YTD": "RENDEMENT YTD",
+    "ANNUALIZED RETURN": "GEANNUALISEERD RENDEMENT",
+    "HIGHER RETURN THAN THE MARKT": "MEER RENDEMENT DAN MARKT",
+    "Opportunity: taking advantage of a revolution": "Opportunity: profiteren van een revolutie",
+    "<b>Unique access:</b> with the Growth Fund BlockchainTraders provides an opportunity for investors to take advantage of the revolutionary growth in blockchain technologies;": "<b>Unieke toegang:</b> met het Growth Fund biedt BlockchainTraders een mogelijkheid voor beleggers om te profiteren van de revolutionaire groei in blockchain technologieën;",
+    "<b>BlockchainTraders</b> has in-depth experience and knowledge of this market and a proven track record in managing cryptocurrencies;": "<b>BlockchainTraders</b> heeft diepgaande ervaring en kennis van deze markt en een bewezen track record in het beheer van cryptocurrencies;",
+    "The <b>strength</b> of the investment strategy lies in the <b>active management</b> of cryptocurrency positions and trading activities in order to maximize returns and minimize risks.": "De <b>kracht</b> van de beleggingsstrategie zit in het <b>actieve beheer</b> van de posities in cryptocurrency en handelsactiviteiten teneinde het rendement te maximaliseren en de risico’s te minimaliseren.",
+    "Riskmanagement: risk mitigation": "Risicomanagement: mitigatie risico’s",
+    "Risk management is crucial in the investment process, which focuses on generating the most stable returns possible and limiting downward movements in the long term. Risks are greatly mitigated by:": "Risicomanagement is cruciaal in het beleggingsproces waarbij het genereren van zo stabiel mogelijke rendementen en het beperken van neerwaartse bewegingen op lange termijn centraal staan. Risico's worden sterk gemitigeerd door:",
+    "To invest mainly in the <b>‘reputable'</b> cryptocurrencies with a <b>large market capitalization</b> in order to be as liquid as possible and to be able to switch quickly;": "Voornamelijk te beleggen in de <b>‘gerenommeerdere'</b> cryptocurrencies met een <b>grote marktkapitalisatie</b> om, onder andere, zo liquide mogelijk te zijn en snel te kunnen schakelen;",
+    "<b>Stop Losses</b> to break losses in time and use the money for other opportunities with better return potential;": "<b>Stop Losses</b> om verliezen op tijd af te breken en het geld aan te wenden voor andere opportuniteiten met een beter rendementspotentieel;",
+    "<b>Continuous monitoring</b> and <b>reallocation</b> of crypto investments.": "<b>Continue monitoring</b> en <b>herallocatie</b> van de crypto beleggingen.",
+    "Return from December 31, 2023, to August 27, 2024.": "Rendement sinds 31 december 2023 tot & met 27 augustus 2024.",
+    "Since 28 January 2020; the start of the current strategy of BlockchainTaders Growth Fund.": " Sinds 28 januari 2020; het startpunt van de huidige strategie van BlockchainTraders Growth Fund.",
+    "CCI30 in EUR after costs, since 28 January 2020.": "CCI30 in EUR na kosten, sinds 28 januari 2020.",
+    "High Water Mark (HWM), and no hurdle rate applies.": "High Water Mark (HWM), en geen hurdle rate van toepassing.",
+    "'Other' refers to accounting costs, registration costs at the AFM.": "‘Overig’ refereert naar accounting kosten, registratiekosten bij de AFM.",
+    "No rights can be derived from the information on this page.": "Aan de informatie op deze pagina kunnen geen rechten worden ontleend.",
+    
+    "Investment information": "Beleggingsinformatie",
+    "Fonds inception": "Fonds inceptie",
+    "17 august 2018": "17 augustus 2018",
+    "Investment strategy": "Beleggingsstrategie",
+    "Crypto directional / active trading": "Crypto directioneel / actief traden",
+    "Lead Portfolio manager": "Lead Portfolio manager",
+    "Co-Portfolio manager": "Co-Portfolio manager",
+    
+    "Fund information": "Fonds informatie",
+    "Legal structure": "Juridische structuur",
+    "Mutual Fund": "Fonds voor gemene rekening",
+    "Fiscal status": "Fiscale status",
+    "Untaxed": "Onbelast",
+    "Transferability": "Overdraagbaarheid",
+    "Non transferable": "Niet overdraagbaar",
+    "Minimum participation": "Minimale inleg",
+    "Redemption Fee": "Opname Fee",
+    "first year only": "alleen het eerste jaar",
+    "Withdrawals / Deposits": "In- / Uitstappen",
+    "Monthly": "Maandelijks",
+    
+    "Cost structure": "Kosten structuur",
+    "Start-up costs": "Opstartkosten",
+    "€845 (one-time)": "€845 (eenmalig)",
+    "Management fee": "Beheervergoeding",
+    "0,4% (quarterly)": "0,4% (per kwartaal)",
+    "Performance fee": "Prestatievergoeding",
+    "15% (lifelong HWM)": "15% (levenslang HWM)",
+    "Other costs": "Overig",
+    "1% maximum": "1% maximaal",
+    
+    "Service providers": "Service providers",
+    "Investment manager": "Fondsmanager",
+    "Judicial owner ": "Juridisch eigenaar",
+    "Administrative office": "Administratiekantoor",
+    "Bank": "Bank",
+    "Customial solution": "Custodial solution",
+    
+    "Fund documentation": "Fondsdocumentatie",
+    "Essential information document": "Essentiële-informatie document",
+    "Information Memorandum": "Informatie Memorandum",
+    "Performance update": "Performance update",
+    "Product Information document": "Productinformatie document",
+    "SFDR Disclosure": "SFDR document",
+    "Request": "Aanvragen",
+
+    "High &amp; stable returns through DeFi": "hoog &amp; stabiel rendement door DeFi",
+    "Achieve a stable return through Decentralised Finance.": "Behaal een stabiel rendement door Decentralised Finance.",
+    "EXPECTED RETURN": "VERWACHT RENDEMENT",
+    "HIGHER RETURN THAN TRADITIONAL PORTFOLIO": "MEER RENDEMENT DAN TRADITIONEEL PORTFOLIO",
+    "The BlockchainTraders Liquidity Fund uses Liquidity Mining, also known as Yield Farming to generate returns. Liquidity Miners or Yield Farmers use complex strategies. They constantly move liquidity between different DeFi apps to maximise returns and minimise risk. The fund minimises risks by only providing liquidity in Stable Coins – these have a fixed exchange rate with FIAT currencies like the American dollar – eliminating the risks of exposure to cryptocurrency price changes. Therefore, the fund is market neutral, i.e., generally, not dependent on the market direction as an alternative for a directional investment in cryptocurrencies (like BlockchainTraders Growth Fund offers).": "Het BlockchainTraders Liquidity Fund past Liquidity Mining toe, ook wel Yield Farming genoemd. Liquidity Miners of Yield Farmers maken gebruik van complexe strategieën. Ze verplaatsen hun crypto voortdurend tussen verschillende leenplatformen om hun rendement te maximaliseren. Het fonds minimaliseert risico’s door liquiditeit te bieden in alleen Stable Coins – deze hebben een vaste wisselkoers met FIAT valuta zoals de Amerikaanse dollar – waardoor de risico's van blootstelling aan koerswijzigingen van cryptocurrencies worden geëlimineerd. Het fonds is daarmee een marktneutraal – dat wil zeggen gemiddeld genomen niet van de marktrichting afhankelijk – alternatief voor een directionele belegging in cryptocurrencies (zoals BlockchainTraders Growth Fund dit biedt).",
+    "<b>Unique access:</b> with the Liquidity Fund, BlockchainTraders provides an opportunity for investors to take advantage of the revolutionary growth in Decentralised Finance;": "<b>Unieke toegang:</b> met het Liquidity Fund biedt BlockchainTraders een mogelijkheid voor beleggers om te profiteren van de revolutionaire groei in Decentralised Finance;",
+    "The <b>strength</b> of the investment strategy lies in the <b>active management</b> of Liquidity Mining positions in order to maximize returns and minimize risks.": "De <b>kracht</b> van de beleggingsstrategie zit in het <b>actieve beheer</b> van de Liquidity Mining activiteiten teneinde het rendement te maximaliseren en de risico’s te minimaliseren.",
+    "Riskmanagement: due diligence and risk mitigation": "Risicomanagement: due diligence en mitigatie risico’s",
+    "Only selecting DeFi applications whose Smart-Contracts have been audited by reputable parties;": "Alleen DeFi-applicaties te selecteren waarvan de SmartContracts geaudit zijn door gerenommeerde partijen;",
+    "Only offer liquidity in Stable Coins: due to the fixed exchange rate with FIAT currencies, such as the US dollar, the risks of being exposed to cryptocurrency price movements are eliminated;": "Alleen liquiditeit te bieden in Stable Coins: vanwege de vaste wisselkoers met FIAT valuta, zoals de Amerikaanse dollar, worden de risico’s om blootgesteld te zijn aan cryptocurrency koersbewegingen geëlimineerd;",
+    "There has to be sufficient liquidity in the DeFi-application and in the Stable Coins;": "Er moet ruime liquiditeit zijn in de DeFi-applicatie en Stable Coins;",
+    "Continuous monitoring and reallocation of the DeFi-applications.": "Continue monitoring en herallocatie van de DeFi applicaties.",
+    "October 18, 2021": "18 oktober 2021",
+    "Liquidity Mining": "Liquidity Mining",
+    "€1.295 (one-time)**": "€1.295 (eenmalig)**",
+    "Since the start of 2023 through 28 Februari 2023.": "Sinds start van 2023 tot en met 28 februari 2023.",
+    "Applicable to the BlockchainTraders Liquidity Fund.": "Van toepassing op het BlockchainTraders Liquidity Fund",
+
+    "The team": "Het team",
+    "Today, the founders of BlockchainTraders are highly regarded cryptocurrency specialists and regularly speak at national and international blockchain events.": "Vandaag de dag zijn de oprichters van BlockchainTraders zeer gewaardeerde cryptocurrency specialisten en spreken zij geregeld op nationale en internationale blockchain evenementen.",
+    "The team behind BlockchainTraders expects blockchain to have a greater impact on today's society than the internet has had to date.": "Het team achter BlockchainTraders verwacht dat blockchain een grotere impact op de huidige samenleving zal hebben dan het internet tot nu toe heeft gehad.",
+
+    "Experience: Portfolio Manager/Trader, Miner en Consultant in Cryptocurrencies": "Ervaring: Portfolio Manager/Trader, Miner en Consultant in Cryptocurrencies",
+    "Education: Universidad Rey Juan Carlos, Hanzehogeschool Groningen": "Opleiding: Universidad Rey Juan Carlos, Hanzehogeschool Groningen",
+    "Experience: Crypto Consultant, KnoWork (Price for bests Startup), ComplianceWise": "Ervaring: Crypto Consultant, KnoWork (prijs voor beste Startup), ComplianceWise",
+    "Education: Universiteit Leiden/Utrecht, UvA, Rijksuniversiteit Groningen": "Opleiding: Universiteit Leiden/Utrecht, UvA, Rijksuniversiteit Groningen",
+    "Director of the BlockchainTraders Supervision Foundation": "Bestuurder Stichting Toezicht BlockchainTraders",
+    "Experience: Commercial Director ComplianceWise, Director judicial owner": "Ervaring: Directeur ComplianceWise, Bestuurder Juridisch eigenaar",
+    "Education: Nijenrode Business University, Hogeschool van Utrecht": "Opleiding: Nijenrode Business University, Hogeschool van Utrecht",
+    "Legal Advisor": "Juridisch Adviseur",
+    "Experience: Lawyer specialized in alternative finance, impact investing, cryptocurrencies and smart contracts": "Ervaring: Advocaat gespecialiseerd in alternative finance, impact investing, cryptocurrencies en smart contracts",
+    "Education: Universiteit Utrech": "Opleiding: Universiteit Utrecht",
+    "Experience": "Ervaring",
+    "Education": "Opleiding",
+
+    "we are happy to answer the most frequently asked questions": "wij beantwoorden graag de meestgestelde vragen",
+    "What are cryptocurrencies?": "Wat zijn cryptocurrencies?",
+    "Cryptocurrencies are digital forms of value that are supported by a network of computers. All transactions within the network are stored in a ledger, also known as the blockchain. With the advent of blockchain technology, it is possible to transfer value without the intervention of a trusted third party such as a bank. It is often thought that cryptocurrencies are only digital forms of money, while nowadays, due to the rise of smart contracts, there are many more applications for cryptocurrencies. Cryptocurrencies can represent multiple forms of property such as shares, savings points or even your vote in elections. The latest popular development within cryptocurrencies is Decentralized Finance (DeFi). DeFi makes it possible to use the blockchain to convert traditional financial products into trust-free and transparent protocols which work without intermediaries. This makes it possible, for example, to conclude financing reliably and transparently without the need for a bank.": "Cryptocurrencies zijn digitale vormen van waarde die ondersteund worden door een netwerk van computers. Alle transacties binnen het netwerk worden in een grootboek opgeslagen dat ook wel bekend staat als de blockchain. Met de komst van blockchain technologie is het mogelijk om waarde te versturen zonder tussenkomst van een ‘trusted third party’ zoals een bank. Vaak wordt gedacht dat cryptocurrencies alleen digitale vormen van geld zijn terwijl er tegenwoordig door opkomst van smartcontracts veel meer toepassingen zijn voor cryptocurrencies. Cryptocurrencies kunnen meerdere vormen van eigendom vertegenwoordigen zoals aandelen, spaarpunten of zelfs je stem in de verkiezingen. De laatste populaire ontwikkeling binnen cryptocurrencies is Decentralised Finance (DeFi). Door DeFi is het mogelijk om via de blockchain traditionele financiële producten om te zetten in vertrouwensloze en transparante protocollen die zonder tussenpersonen werken. Het is hierdoor mogelijk om bijvoorbeeld financieringen betrouwbaar en transparant af te sluiten zonder dat hier een bank voor nodig is.",
+    "Why include cryptocurrencies in your investment portfolio?": "Waarom cryptocurrencies opnemen in je beleggingsportfolio?",
+    "The market for cryptocurrencies is still young and it has large potential. Therefore, the cryptocurrencies asset class has a high return potential. Over the past few years, the BlockchainTraders Growth Fund has delivered a return that is significantly higher than that of traditional asset classes, such as stocks and bonds. In addition, there is as yet no demonstrated correlation between traditional asset classes and cryptocurrencies, so cryptocurrencies have the potential to move in the opposite direction to declining traditional assets.": "Doordat de markt voor cryptocurrencies nog jong is en de potentie ervan zeer groot, heeft de beleggingscategorie cryptocurrencies een zeer hoge rendementspotentie. Het BlockchainTraders Growth Fund heeft over de afgelopen jaren een rendement gerealiseerd dat significant hoger is dan dat van traditionele vermogenscategorieën, zoals aandelen en obligaties. Daarnaast is er nog geen aangetoonde correlatie tussen traditionele vermogenscategorieën en cryptocurrencies, hierdoor hebben cryptocurrencies de potentie om tegengesteld te bewegen aan dalende traditionele assets.",
+    "Inclusion of cryptocurrencies in a traditional portfolio through an investment in a BlockchainTraders fund has the added value that it can significantly increase the return of the total portfolio and decrease the reliance on traditional assets.": "Opname van cryptocurrencies in een traditioneel portfolio door een belegging in een BlockchainTraders fonds heeft als toegevoegde waarde dat het het rendement van de totale portefeuille significant kan verhogen en de afhankelijkheid met traditionele assets kan verlagen.",
+    "How is BlockchainTraders regulated?": "Hoe is BlockchainTraders gereguleerd?",
+    "BlockchainTraders is registered with the Dutch FinancialMarkets Authority (AFM). In addition, BlockchainTraders ensures that it adheres to laws and regulations by maintaining a sound compliance policy based on the Dutch Financial Supervision Act (wft) and the Dutch Money Laundering and Terrorist Financing (Prevention) Act (wwft).": "BlockchainTraders is geregistreerd bij de Autoriteit Financiële Markten (AFM). Daarnaast zorgt BlockchainTraders ervoor dat het zich houdt aan wet- en regelgeving door een gedegen compliance beleid te voeren op basis van de Nederlandse Wet op financieel toezicht (wft) en de wet ter voorkoming van witwassen en financieren van terrorisme (wwft).",
+    "What are the risks of investing in cryptocurrencies?": "Wat zijn de risico’s van beleggen in cryptocurrencies?",
+    "The cryptocurrency market is still relatively new and a lot smaller than traditional markets such as the stock market, which means that the cryptocurrency market is very volatile. This volatility enables high returns to be achieved but also increases the risk of loss compared to traditional markets. Please refer to our fund documentation, which can be downloaded on the :growth_fund & the :liquidity_fund page to find out more about the risks.": "Doordat de markt van cryptocurrencies nog jong en kleiner is dan traditionele markten zoals de aandelenmarkt is de cryptocurrency markt zeer volatiel. Door deze volatiliteit kunnen er hoge rendementen worden behaald maar is het risico op verlies ook groter dan binnen traditionele markten. Bekijk voor de risico’s ook onze fondsdocumentatie die te downloaden is op de pagina's van :growth_fund en :liquidity_fund",
+    "Why is it interesting to invest in cryptocurrencies through BlockchainTraders?": "Waarom is het interessant om via BlockchainTraders in cryptocurrencies te beleggen?",
+    "The team behind BlockchainTraders is experienced and has a proven track record in cryptocurrency investments. Due to BlockchainTraders' experience in the market, they know how to reduce the risks for you, allowing you to quickly anticipate developments in the rapidly growing cryptocurrency market without needing technical know-how.": "Het team achter BlockchainTraders is ervaren en heeft een bewezen trackrecord op het gebied van cryptocurrency beleggingen. Door de ervaring van BlockchainTraders binnen deze markt weten zij hoe ze voor u de risico’s kunnen verkleinen en kunt u zonder technische kennis snel inspelen op ontwikkelingen in de snel groeiende cryptocurrency markt.",
+    "What fees does BlockchainTraders charge for its services?": "Welke kosten rekent BlockchainTraders voor haar diensten?",
+    "The costs of our funds can be found on the information pages: :growth_fund :liquidity_fund": "De kosten van onze fondsen zijn te vinden op de informatiepagina’s: :growth_fund :liquidity_fund",
+    "How can I see the value of my investments?": "Hoe kan ik zien wat mijn beleggingen waard zijn?",
+    "Every two weeks you will receive an extensive factsheet detailing the value of your investment and your investment returns. In addition, you can also view the value of your participations in BlockchainTraders' online portal and app.": "Elke twee weken ontvangt u een uitgebreide factsheet waar de waarde van uw belegging en de voortgang van uw rendement uitgebreid wordt verslaggegeven. Daarnaast kunt u ook in het online portaal van BlockchainTraders en in de bijbehorende app de waarde van uw participaties inzien.",
+    "How can I schedule an appointment with BlockchainTraders?": "Hoe kan ik een afspraak inplannen met BlockchainTraders?",
+    "You can immediately schedule an appointment with us via the Calendly button at the bottom right. You can also contact us via the <a onclick=\"open_modal('contact')\">contact form</a>.": "Via de Calendly button rechtsonder kunt u direct een afspraak met ons inplannen. Ook kunt u contact met ons opnemen via het <a onclick=\"open_modal('contact')\">contactformulier</a>.",
+    "How can I invest with BlockchainTraders?": "Hoe kan ik beleggen bij BlockchainTraders?",
+    "You can indicate that you are interested in investing through BlockchainTraders by entering your details <a onclick=\"open_modal('invest')\">here</a>. We will then contact you as soon as possible.": "U kunt geheel vrijblijvend aangeven dat u interesse heeft om te investeren via BlockchainTraders, door uw gegevens <a onclick=\"open_modal('invest')\">hier</a> in te vullen. Wij zullen vervolgens zo snel mogelijk contact met u opnemen.",
+
+    "BlockchainTraders BV owns the BlockchainTraders.nl website and is responsible for processing personal data, as indicated in this statement. Through this, BlockchainTraders complies with the AVG (GDPR) in force as of 25 May 2018.": "BlockchainTraders B.V. is eigenaar van de website BlockchainTraders.nl en is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze verklaring. Hiermee voldoet BlockchainTraders aan de AVG (GDPR) die per 25 mei 2018 van kracht is.",
+    "Contact details": "Contactgegevens",
+    "Company name": "Bedrijfsnaam",
+    "Phone": "Telefoon",
+    "CoC": "KvK",
+    "Justin Kool is the data protection officer for BlockchainTraders. He can be reached at j.kool@blockchaintraders.nl.": "Justin Kool is de functionaris gegevensbescherming van BlockchainTraders. Hij is te bereiken via j.kool@blockchaintraders.nl",
+    "Personal data that we process": "Persoonsgegevens die wij verwerken",
+    "We process your personal data because you employ our services and/or because you provide us with these data yourself. Below is an overview of the personal data we may process when you contact us, respond via a form on the website, or register for a master class:": "Wij verwerken je persoonsgegevens doordat je gebruik maakt van onze diensten en/of omdat je deze gegevens zelf aan ons verstrekt. Hieronder vind je een overzicht van de persoonsgegevens die wij kunnen verwerken als je contact met ons opneemt; reageert via een formulier op de website; of je inschrijft voor een masterclass:",
+    "First and last name": "Voor- en achternaam",
+    "E-mail address": "E-mailadres",
+    "IP address": "IP-adres",
+    "Address details": "Adresgegevens",
+    "Special and/or sensitive personal data that we process": "Bijzondere en/of gevoelige persoonsgegevens die wij verwerken",
+    "We do not intend to collect data with our website and/or service about website visitors younger than 16 years old unless they have permission from their parents or guardian. However, we cannot verify whether a visitor is over 16 years of age. Therefore, we recommend that parents be involved in their children’s online activities to prevent data from being collected from children without parental permission. If you are convinced that we have collected personal data on a minor without such consent, please contact us via the e-mail address provided in the contact details of this statement, and we will delete this information.": "Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als je er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via het emailadres vindbaar in de contactgegevens uit deze verklaring, dan verwijderen wij deze informatie.",
+    "For what purpose and based on what grounds do we process personal data?": "Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken",
+    "We process your personal data for the following purposes:": "Wij verwerken jouw persoonsgegevens voor de volgende doelen:",
+    "To process your payment": "Het afhandelen van jouw betaling",
+    "To send you our newsletter and/or advertising brochure": "Verzenden van onze nieuwsbrief en/of reclamefolder",
+    "To be able to call you or send you an e-mail if this is necessary to be able to provide our services": "Je te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren",
+    "To inform you about changes to our services and products": "Je te informeren over wijzigingen van onze diensten en producten",
+    "To offer you the possibility of creating an account": "Je de mogelijkheid te bieden een account aan te maken",
+    "To deliver goods and services to you": "Om goederen en diensten bij je af te leveren",
+    "To comply with tax obligations and additional administrative duties": "Om aan de belastingaangifte en bijkomende administratieve plichten te voldoen",
+    "To analyse website behaviour to better tailor the website, products and services to customer preferences.": "Om het gedrag op de website te analyseren en zo de website, het aanbod en de diensten beter te kunnen afstemmen op de voorkeuren van de klant.",
+    "The duration that we retain personal data": "Hoe lang we persoonsgegevens bewaren",
+    "We will not retain your personal data any longer than is strictly necessary to fulfil the purposes for which it was collected.": "Wij bewaren je persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor je gegevens worden verzameld.",
+    "Automated decision-making": "Geautomatiseerde besluitvorming",
+    "We do not apply any automated decision-making regarding matters that could (significantly) affect individuals.": "Wij nemen geen geautomatiseerde besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen.",
+    "Sharing personal data with third parties": "Delen van persoonsgegevens met derden",
+    "We share your personal data with various third parties via our website if this is deemed necessary for the execution of the agreement and to comply with a possible legal obligation. We will enter into a processing agreement with companies that process your data on our behalf to ensure the same level of security and confidentiality of your data. We remain responsible for these processes. We may also provide your personal data to other third parties. We will only do so with your express permission.": "Via onze website delen we jouw persoonsgegevens met verschillende derden als dit noodzakelijk is voor het uitvoeren van de overeenkomst en om te voldoen aan een eventuele wettelijke verplichting. Met bedrijven die je gegevens verwerken in onze opdracht, sluiten wij een verwerkersovereenkomst om te zorgen voor eenzelfde niveau van beveiliging en vertrouwelijkheid van jouw gegevens. Wij blijven verantwoordelijk voor deze verwerkingen. Daarnaast kunnen wij jouw persoonsgegevens aan andere derden verstrekken. Dit doen wij alleen met nadrukkelijke toestemming.",
+    "Cookies or similar technologies that we use": "Cookies, of vergelijkbare technieken, die wij gebruiken",
+    "Our website uses functional, analytical and tracking cookies. A cookie is a small text file stored in the browser of your computer, tablet or smartphone when you first visit this website. We use functional session cookies and third-party cookies. These ensure that the website works properly and that, for example, your preferences are remembered. These cookies are also used to ensure that the website works properly and to optimise it, and we use cookies to track your surfing behaviour so that we can offer you customised content. When you first visited our website, we informed you about these cookies and asked your permission to place them. You can unsubscribe from cookies by configuring your internet browser so that it does not store cookies anymore. In addition, you can delete all information that has previously been stored via your browser settings.": "Via onze website wordt er gebruik gemaakt van functionele, analytische en tracking cookies. Een cookie is een klein tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen in de browser van je computer, tablet of smartphone. Wij gebruiken functionele, sessie cookies en third-party cookies. Deze zorgen ervoor dat de website naar behoren werkt en dat bijvoorbeeld jouw voorkeursinstellingen onthouden worden. Deze cookies worden ook gebruikt om de website goed te laten werken en deze te kunnen optimaliseren. Daarnaast plaatsen we cookies die jouw surfgedrag bijhouden zodat we op maat gemaakte content kunnen aanbieden. Bij jouw eerste bezoek aan onze website hebben wij je al geïnformeerd over deze cookies en hebben we je toestemming gevraagd voor het plaatsen ervan. Je kunt je afmelden voor cookies door je internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kun je ook alle informatie die eerder is opgeslagen via de instellingen van je browser verwijderen.",
+    "You can find more information about cookies on the following websites:": "Op de volgende websites kan je meer informatie over cookies vinden:",
+    "Background on cookie law": "Achtergrond Cookiewet",
+    "What are cookies?": "Wat zijn cookies",
+    "What are cookies for?": "Waarvoor dienen cookies?",
+    "Delete cookies": "Cookies verwijderen",
+    "Disable cookies": "Cookies uitschakelen",
+    "Sharing personal data with Google via Google Analytics": "Delen van persoonsgegevens met Google via Google Analytics",
+    "Our website uses Google Analytics, a service provided by the American company Google, to collect personal data from visitors. The information collected is transferred to and stored by Google on servers in the United States. Information is not actively shared with others, but through Google Analytics, this does happen. To protect privacy as much as possible, we have a processing agreement with Google and have disabled data sharing. Furthermore, the IP address is anonymised so that it cannot be traced back to a person. Google states that it adheres to the Privacy Shield principles and is affiliated with the Privacy Shield programme of the American Department of Commerce. This means that there is an adequate level of protection for the processing of any personal data.": "Via onze website wordt er gebruik gemaakt van Google Analytics, van het amerikaanse bedrijf Google, en daardoor worden er persoonlijke gegevens van bezoekers verzameld. Er wordt niet actief informatie met anderen gedeeld, maar via Google Analytics gebeurt dit wel. Om de privacy zo veel mogelijk te beschermen is er een verwerkersovereenkomst met Google en is het delen van gegevens uitgeschakeld. Verder is het ip-adres geanonimiseerd zodat deze niet te herleiden is tot een persoon. De verzamelde informatie wordt overgebracht naar en door Google opgeslagen op servers in de Verenigde Staten. Google stelt zich te houden aan de Privacy Shield principles en is aangesloten bij het Privacy Shield-programma van het Amerikaanse Ministerie van Handel. Dit houdt in dat er sprake is van een passend beschermingsniveau voor de verwerking van eventuele persoonsgegevens.",
+    "Sharing personal data on social media channels, such as Facebook, Twitter, LinkedIn and Google+": "Delen van persoonsgegevens op social Media kanalen, zoals Facebook, Twitter, LinkedIn en Google+",
+    "We do not use social media cookies. We have provided links to our LinkedIn and Twitter page only, which function without cookies.": "Wij maken geen gebruik van social media cookies. Wij hebben enkel links naar onze LinkedIn en Twitter pagina gedeeld, welke functioneren zonder cookies.",
+    "Accessing, modifying or erasing data": "Gegevens inzien, aanpassen of verwijderen",
+    "You have the right to access, correct or erase your personal data. In addition, you have the right to withdraw your consent for data processing or object to the processing of your personal data by us, and you have the right to data portability. This means that you can submit a request to us to send the personal data we have on you in a computer file to you or another organisation named by you. You can send a request for access, correction, erasure, data portability or a request to withdraw your permission or objection to the processing of your personal data to the e-mail address provided in the Contact details section of this statement. To make sure that you are the person making the request, we ask you to include a copy of your identity document. Please make sure that your passport photo, MRZ (machine readable zone), passport number and Citizen Service Number (BSN) are blackened in this copy. This is to protect your privacy. We will respond to your request as quickly as possible but within four weeks. We would also like to point out that you have the option of submitting a complaint to the national supervisory authority, the Dutch Data Protection Authority (AP). You can do so via the following link:": "Je hebt het recht om je persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heb je het recht om je eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van jouw persoonsgegevens door ons en heb je het recht op gegevensoverdraagbaarheid. Dat betekent dat je bij ons een verzoek kan indienen om de persoonsgegevens die wij van jou beschikken in een computerbestand naar jou of een ander, door jou genoemde organisatie, te sturen. Je kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van je persoonsgegevens of verzoek tot intrekking van je toestemming of bezwaar op de verwerking van jouw persoonsgegevens sturen naar het emailadres vindbaar bij de Contactgegevens uit deze verklaring. Om er zeker van te zijn dat het verzoek tot inzage door jou is gedaan, vragen wij jou een kopie van je identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie je pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van je privacy. We reageren zo snel mogelijk, maar binnen vier weken, op jouw verzoek. Wij willen je er tevens op wijzen dat je de mogelijkheid hebt om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: ",
+    "How we secure personal data": "Hoe wij persoonsgegevens beveiligen",
+    "We are serious about protecting your data and take appropriate measures to prevent misuse, loss, unauthorised access, unwanted disclosure and unauthorised changes. If you feel that your information is not adequately protected or there are indications of misuse, please contact us at the e-mail address given in the Contact details in this statement. We have taken the following measures to protect your personal data:": "Wij nemen de bescherming van jouw gegevens serieus en nemen passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als jij het idee hebt dat jouw gegevens toch niet goed beveiligd zijn of er zijn aanwijzingen van misbruik, neem dan contact op via het emailadres onder contactgegevens in deze verklaring. Wij hebben de volgende maatregelen genomen om jouw persoonsgegevens te beveiligen:",
+    "Security software, such as a virus scanner and firewall.": "Beveiligingssoftware, zoals een virusscanner en firewall.",
+    "TLS (formerly SSL). We send your data via a secure internet connection. You can tell this by the ‘https’ and the padlock icon in the address bar.": "TLS (voorheen SSL). Wij versturen jouw gegevens via een beveiligde internetverbinding. Dit kun je zien aan de adresbalk ‘https’ en het hangslotje in de adresbalk.",
+    "DNSSEC is an additional security feature (in addition to DNS) for converting a domain name to the associated IP address; it is provided with a digital signature. You can have this signature checked automatically. This way, we prevent you from being redirected to a false IP address.": "DNSSEC is een extra beveiliging (aanvullend op DNS) voor het omzetten van een domeinnaam naar het hieraan gekoppelde IP-adres; het wordt voorzien van een digitale handtekening. Je kunt die handtekening automatisch laten controleren. Op die manier voorkomen wij dat je omgeleid wordt naar een vals IP-adres.",
+    "Questions?": "Vragen?",
+    "If you have any questions about the privacy statement, please e-mail us at the e-mail address provided in the Contact details of this statement.": "Heb je nog vragen over de privacyverklaring, mail ons dan op het emailadres vindbaar bij de contactgegevens uit deze verklaring.",
+
+    "Consent": "Voorwaarden van toepassing",
+    "Prior to accessing the website of BlockchainTraders B.V., please carefully read the following legal notice and terms of use (\"Terms of Use\"). By visiting the website, you confirm that you have read and understood the Terms of Use, and that you agree to all the terms and conditions included herein. If you do not understand or agree to the terms in the Terms of Use, we advise you not to proceed or enter into any agreement with BlockchainTraders B.V.": "Voordat u de website van BlockchainTraders B.V. bezoekt, is het belangrijk dat u de volgende Gebruiksvoorwaarden zorgvuldig doorleest. Door de website te bezoeken, gaat u ermee akkoord dat u deze voorwaarden begrijpt en ermee instemt. Als u de voorwaarden niet begrijpt of er niet mee instemt, raden we u aan de website niet te bezoeken of geen overeenkomst aan te gaan met BlockchainTraders B.V.",
+    "Limited Access": "Beperkte toegang",
+    "Please note that the website of BlockchainTraders B.V. may not be accessed by persons subject to a jurisdiction where the publication of the website's content or access thereto is prohibited for any reason (e.g., due to nationality or place of residence). Such persons are not authorized to access this website.": "De website van BlockchainTraders.nl mag niet worden bezocht door personen die wonen in een jurisdictie waar publicatie van de inhoud van de website van BlockchainTraders B.V. of toegang daartoe om welke reden dan ook verboden is. Dit geldt bijvoorbeeld voor personen met een bepaalde nationaliteit of woonplaats. Personen die onder deze beperking vallen, hebben geen toegang tot deze website.",
+    "No Warranty ": "Geen garantie",
+    "BlockchainTraders B.V. has taken great care in compiling the information on this website. The information on this website is continuously updated and checked for accuracy. However, neither BlockchainTraders B.V. nor its contractual partners make any representation or warranty (explicit or implicit) that the information published on the website of BlockchainTraders B.V. is accurate, reliable, up-to-date, or complete. In particular, BlockchainTraders B.V. has no obligation to update or remove outdated information or opinions from this website or to designate them as outdated. The information and opinions on this website may be changed at any time without notice.": "Er wordt door BlockchainTraders B.V. veel aandacht besteed aan de zorgvuldige samenstelling en voortdurende actualisatie van de informatie op haar website. Echter, noch BlockchainTraders B.V. zelf, noch haar contractpartners geven expliciete of impliciete garanties of verklaringen met betrekking tot de juistheid, betrouwbaarheid, actualiteit of volledigheid van de gepubliceerde informatie op haar website. Het is niet de verantwoordelijkheid van BlockchainTraders B.V. om verouderde informatie of meningen op de website bij te werken, te verwijderen of als zodanig te labelen. De informatie en meningen op de website kunnen op elk moment zonder kennisgeving worden gewijzigd.",
+    "Furthermore, no warranty is given that this website will function without errors or interruptions, that any errors will be corrected, or that this website and servers from which information is accessible will be free from viruses, trojan horses, worms, software bombs, or other harmful components and programs, and BlockchainTraders B.V. accepts no liability for this.": "De website van BlockchainTraders B.V. kan onderbroken zijn of fouten bevatten. BlockchainTraders B.V. garandeert niet dat eventuele fouten gecorrigeerd zullen worden of dat de website en de servers vrij zullen zijn van schadelijke componenten en programma's zoals virussen, trojan horses, worms en software bombs. BlockchainTraders B.V. aanvaardt geen enkele aansprakelijkheid hiervoor.",
+    "Risk Disclosure": "Risico’s",
+    "Investing in cryptocurrencies is inherently risky and may result in total loss of the invested amount. Cryptocurrencies are highly volatile and can fluctuate significantly in a short period of time. If you are not familiar with the risks involved, we kindly request that you leave this website. By continuing to use this website, you confirm that you understand the risks and are capable of taking them.": "Het investeren in cryptocurrencies brengt risico's met zich mee. Als u niet bekend bent met deze risico's, wordt u vriendelijk verzocht de website te verlaten. Als u wel bekend bent met de risico's van het investeren in cryptocurrencies, bevestigt u hierbij dat u in staat bent om deze risico's te nemen. Handelen in cryptocurrencies houdt het risico in van totaal verlies van het geïnvesteerde bedrag. Cryptocurrencies zijn zeer volatiel en kunnen daarom in korte tijd extreem fluctueren.",
+    "No Liability": "Geen aansprakelijkheid",
+    "The information provided on this website by BlockchainTraders B.V. may not be current, accurate, or complete, and the company accepts no liability for it. Any direct or indirect damage, including loss of profits, resulting from the use of this website or its information is not the responsibility of BlockchainTraders B.V. Liability for consequential damage and loss of profits are excluded.": "BlockchainTraders B.V. is niet aansprakelijk voor enige directe of indirecte schade, inclusief winstderving, die kan worden geleden als gevolg van de verstrekte informatie op de website of het gebruik van de website en de daarin opgenomen informatie, of uit risico's verbonden aan de financiële markten. Aansprakelijkheid voor gevolgschade en winstderving is uitgesloten.",
+    "No Offer": "Geen aanbod",
+    "The information and opinions published on this website are provided for informational purposes only and should not be construed as any form of promotion, recommendation, encouragement, offer, or solicitation to (i) buy or sell cryptocurrencies, (ii) engage in any other business activities, or (iii) enter into any other legal transactions. The described services may not be suitable for you, or may not be available in your jurisdiction.": "De informatie en meningen die op deze website worden gepubliceerd, zijn niet bedoeld als promotie, aanbeveling, aansporing, aanbod of verzoek om (i) cryptocurrencies te kopen of te verkopen, (ii) andere zaken te doen of (iii) andere juridische transacties aan te gaan. De informatie en meningen worden uitsluitend ter informatie verstrekt. Het kan zijn dat de beschreven diensten niet geschikt zijn voor u of niet beschikbaar zijn.",
+    "No Advice": "Geen advies",
+    "The information and opinions published on this website do not constitute investment advice, and are not intended to provide legal, tax, financial, or any other advice or to be relied upon as such. Such information and opinions should not be used as a basis for decision-making. We strongly recommend that you consult with an expert in the relevant field before deciding to take any specific action. No information on or access to the website of BlockchainTraders B.V. should be construed as a contractual relationship between the providers of such information and the users of the website.": "De informatie en meningen die op deze website worden gepubliceerd, vormen geen beleggingsadvies en zijn niet bedoeld als juridisch, fiscaal, financieel of ander advies. U mag niet vertrouwen op deze informatie en meningen en deze niet gebruiken als basis voor besluitvorming. Raadpleeg een expert voordat u een specifieke actie onderneemt. Er bestaat geen contractuele relatie tussen de aanbieders van de informatie op deze website en de gebruikers van de website.",
+    "Intellectual Property, Copyright, and Trademark Rights:": "Intellectuele eigendom, auteursrecht en merkrechten",
+    "All components of the BlockchainTraders B.V. website are protected by intellectual property rights and are the property of BlockchainTraders B.V. or third parties. Users may not acquire any rights to software, trademarks, or components of the website by downloading or printing material from this website. Copyright notices and trademarks may not be changed or removed. Components of this website may not be reproduced in any manner or form (including electronic or printed form) without the prior written permission of BlockchainTraders B.V. and full attribution. Users are not permitted to create hyperlinks or text links from other websites to the website of BlockchainTraders B.V. without the prior written permission of BlockchainTraders B.V.": "Alle onderdelen van de website van BlockchainTraders B.V. zijn beschermd door intellectuele eigendomsrechten en zijn eigendom van BlockchainTraders B.V. of derden. Het is niet toegestaan om de onderdelen van de website geheel of gedeeltelijk te reproduceren in enige vorm zonder voorafgaande schriftelijke toestemming van BlockchainTraders B.V. en met volledige bronvermelding. Het is niet toegestaan voor gebruikers om hyperlinks of tekst links naar de website van BlockchainTraders B.V. van andere websites aan te brengen zonder schriftelijke toestemming vooraf van BlockchainTraders B.V.",
+    "Possible Conflicts of Interest:": "Belangenverstrengeling",
+    "BlockchainTraders B.V., its directors, or employees may have invested, currently invest, or may invest in the future in cryptocurrencies about which information or opinions are provided on the website of BlockchainTraders B.V. It is also possible that BlockchainTraders B.V. has previously provided, currently provides, or will provide services to the issuers of such cryptocurrencies. Furthermore, it is possible that employees or directors of BlockchainTraders B.V. have previously performed, currently perform, or will perform certain functions on behalf of the issuers of such cryptocurrencies.": "Er kan sprake zijn van mogelijke belangenverstrengeling waarbij BlockchainTraders B.V., haar bestuurders of werknemers eerder hebben geïnvesteerd, momenteel investeren of in de toekomst zullen investeren in cryptocurrencies die op de website van BlockchainTraders B.V. worden besproken. Het is ook mogelijk dat BlockchainTraders B.V. eerder diensten heeft verleend, momenteel verleent of in de toekomst zal verlenen aan de uitgevers van dergelijke cryptocurrencies. Verder is het mogelijk dat werknemers of bestuurders van BlockchainTraders B.V. eerder of momenteel bepaalde functies namens de uitgevers van dergelijke cryptocurrencies hebben uitgevoerd of in de toekomst zullen uitvoeren.",
+    "BlockchainTraders B.V. reserves the right to change the Terms of Use from time to time. To ensure that you agree to the terms of any modified version, you should read the Terms of Use simultaneously when using the BlockchainTraders B.V. website. If you do not understand or agree to the terms of the present Terms of Use, you should not visit BlockchainTraders B.V.'s website.": "BlockchainTraders B.V. behoudt zich het recht voor om de Gebruiksvoorwaarden van tijd tot tijd te wijzigen. Om er zeker van te zijn dat u akkoord gaat met de voorwaarden van elke gewijzigde versie, dient u de Gebruiksvoorwaarden telkens te lezen wanneer u de website van BlockchainTraders B.V. bezoekt. Als u de voorwaarden in de huidige Gebruiksvoorwaarden niet begrijpt of er niet mee akkoord gaat, dient u de website van BlockchainTraders B.V. te verlaten.",
+    "Applicable Law and Venue:": "Toepasselijk recht / plaats van jurisdictie",
+    "Access to and use of the website and the Terms of Use are governed by and interpreted in accordance with Dutch law, with Apeldoorn as the venue.": "Toegang tot en gebruik van de website en de Gebruiksvoorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met Nederlands recht, met Apeldoorn als de plaats van jurisdictie.",
+    "Privacy Policy:": "Privacybeleid:",
+    "Please read our <a href=\":privacyPageUrl\">Privacy Policy</a>, which explains how personal information you provide to us is used.": "Lees ook ons <a href=\":privacyPageUrl\">Privacybeleid</a>, waarin wordt uitgelegd hoe persoonlijke informatie die u aan ons verstrekt wordt gebruikt.",
+
+    "Privacy policy": "Privacybeleid",
+    "Terms and conditions": "Algemene voorwaarden",
+    "SFDR policy": "SFDR beleid",
+
+    "If you're having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser:": "Als je problemen hebt met de \":actionText\" knop, kopieer en plak de URL hieronder\nin je webbrowser:",
+
+    "Schedule an appointment": "Maak een afspraak",
+
+    "Safety": "Veiligheid",
+    "The market for cryptocurrencies is developing at lightning speed, with new innovations following in rapid succession. This strong growth offers investors interesting investment opportunities, but it also creates challenges and risks. Due to the digital and programmable nature of blockchain technologies, there are risks of cyber attacks and hacks.": "De markt voor cryptocurrencies ontwikkelt zich razendsnel waarbij nieuwe innovaties elkaar in rap tempo opvolgen. Deze forse groei biedt beleggers interessante beleggingsmogelijkheden, het creëert echter ook uitdagingen en risico's. Door het digitale en programmeerbare karakter van blockchain technologieën zijn er risico's op hacks en cyberaanvallen.",
+    "Thanks to the security measures of BlockchainTraders, you invest in crypto as safely as possible, and your investments always comply with all regular laws and regulations.": "Door de veiligheidsmaatregelen van BlockchainTraders belegt u zo veilig mogelijk in crypto en voldoen uw beleggingen altijd aan alle geldende wet- en regelgeving.",
+    "Our security measures": "Onze veiligheidsmaatregelen",
+    "Storage/security of cryptocurrencies": "Opslag/beveiliging van cryptocurrencies",
+    "For the security of the crypto assets, BlockchainTraders uses the most advanced Cyber Security technology available. The technology used is the Multi-Party Computation (MPC) structure of Fireblocks. Similar to a multi-signature (multi-sig) configuration, a private key within an MPC-based solution is never created or stored in a single place. MPC technology protects the key(s) against theft by cybercriminals as well as internal fraud preventing employee(s) from stealing cryptocurrency. Thanks to the collaboration with Fireblocks, you can safely invest in crypto with BlockchainTraders.": "Voor de beveiliging van de crypto assets maakt BlockchainTraders gebruik van de meest geavanceerde Cyber Security technologie beschikbaar. De technologie die gebruikt wordt is de Multi-Party Computation (MPC) structuur van Fireblocks. Net als bij een configuratie met meerdere handtekeningen (multi-sig), wordt een privésleutel binnen een MPC-gebaseerde oplossing nooit gemaakt of bewaard op één enkele plaats. MPC-technologie beschermt de sleutel(s) tegen diefstal door cybercriminelen evenals tegen interne fraude waardoor wordt voorkomen dat werknemer(s) cryptocurrency kan stelen. Door de samenwerking met Fireblocks belegt u met BlockchainTraders veilig in crypto.",
+    "Compliance": "Compliance",
+    "BlockchainTraders is registered with the Netherlands Authority for the Financial Markets (AFM). In addition, BlockchainTraders ensures that it adheres to laws and regulations by conducting a thorough compliance policy based on the Dutch Financial Supervision Act (WFT) and the Money Laundering and Terrorist Financing Prevention Act (WWFT). BlockchainTraders uses software from ComplianceWise for her compliance activities. The Amsterdam-based accounting firm Endymion is the Internal Auditor of the compliance policy and as such carries out independent audits.": "BlockchainTraders is geregistreerd bij de Autoriteit Financiële Markten (AFM). Daarnaast zorgt BlockchainTraders ervoor dat het zich houdt aan wet- en regelgeving door een gedegen compliance beleid te voeren op basis van de Nederlandse Wet op Financieel Toezicht (WFT) en de Wet ter voorkoming van Witwassen en Financieren van Terrorisme (WWFT). Voor de Compliance activiteiten gebruikt BlockchainTraders software van ComplianceWise. Het in Amsterdam gevestigde accountantskantoor Endymion is de Internal Auditor van het compliance beleid en voert als zodanig onafhankelijke audits uit.",
+    "Separate funds": "Gescheiden gelden",
+    "To ensure the availability and security of client funds, the balances of the BlockchainTraders funds are stored in Stichting Toezicht BlockchainTraders. As a result, the funds are not involved in day-to-day operational matters and are available for withdrawal by the participant. Thanks to this legal structure, participants' funds are protected.": "Om de beschikbaarheid en veiligheid van de gelden van de klant te waarborgen, worden de tegoeden van de BlockchainTraders fondsen opgeslagen in Stichting Toezicht BlockchainTraders. De gelden zijn hierdoor niet betrokken bij de dagelijkse operationele zaken en zijn beschikbaar voor opname door de participant. Door deze structuur worden de gelden van participanten beschermd.",
+    "Jeroen Cremer, the independent director of Stichting Toezicht BlockchainTraders, supervises the management of the funds. The fund administration of the funds is also subject to an independent audit every quarter.": "Jeroen Cremer, de onafhankelijke bestuurder van Stichting Toezicht BlockchainTraders, houdt toezicht op het bestuur van de fondsen. Op de fondsadministratie van de fondsen wordt daarnaast elk kwartaal een onafhankelijke audit uitgevoerd.",
+
+    "Registration failed. Please refresh the page and try again. If the error keeps occuring please contact us.": "Registratie mislukt. Ververs de pagina en probeer het opnieuw. Neem contact met ons op als de fout blijft optreden.",
+
+    "Please correct the following errors:": "Corrigeer de volgende fouten:",
+
+    "The S-Curve analysis follows the adoption path of new technologies, divided into phases such as Innovators, Early Adopters, Early Majority, Late Majority and Laggards. This helps with investment decisions. Typically, adoption grows fastest in the Early and Late Majority phases. With 12 years of history, we believe Bitcoin is currently in the Early Majority stage, as assessed by global investors and total digital asset investments.": "De S-Curve-analyse volgt het adoptiepad van nieuwe technologieën, verdeeld in fasen zoals Innovators, Early Adopters, Early Majority, Late Majority en Laggards. Dit helpt bij investeringsbeslissingen. Meestal groeit de adoptie het snelst in de Early en Late Majority-fasen. Met 12 jaar geschiedenis bevindt Bitcoin zich momenteel volgens ons in de Early Majority-fase, beoordeeld op wereldwijde investeerders en totale investeringen in digitale activa.",
+
+    "INVEST IN A FUTURE-ORIENTED WAY": "BELEG TOEKOMSTGERICHT",
+
+    "How can I invest?": "Hoe kan ik investeren?",
+
+    "Appointment": "Afspraak",
+    "Schedule an appointment to get acquainted": "Een afspraak inplannen om kennis te maken",
+
+    "Enroll": "Inschrijven",
+    "We will send you a digital registration form": "We sturen u een digitaal inschrijf-formulier",
+
+    "Invoice": "Factuur",
+    "You will receive a participation invoice": "U krijgt een participatiefactuur",
+
+    "Access": "Toegang",
+    "After payment you will get access to your dashboard": "Na betaling krijgt u toegang tot uw presoonlijke omgeving",
+
+    "Efficiency": "Rendement",
+    "We will work to make your investment profitable": "Wij gaan aan de slag om uw belegging te laten renderen",
+
+    "Start now": "Begin direct",
+
+    "Reduce dependence on traditional assets and increase your returns": "Verlaag afhankelijkheid met traditionele assets en verhoog uw rendement",
+
+    "Add an investment with BlockchainTraders to your traditional investment portfolio with stocks and bonds. This has the added value that it can significantly increase the return of the total portfolio and reduce dependence on traditional assets.": "Voeg een belegging bij BlockchainTraders toe aan uw traditionele beleggingsportefeuille met aandelen en obligaties. Dit heeft als toegevoegde waarde dat het het rendement van de totale portefeuille significant kan verhogen en afhankelijkheid met traditionele assets kan verlagen.",
+
+    "Many entrepreneurs have liquid equity in their company. It is possible for businesses to invest in cryptocurrencies such as Bitcoin or Ethereum or in a crypto investment fund such as BlockchainTraders. You can invest in crypto with various business forms, for example as an independent entrepreneur, such as a self-employed person or freelancer with a sole proprietorship of V.O.F. (Partnership Partnership), or with a BV (Private Company), CV (Limited Partnership) of NV (Public Limited Company) as shareholder and/or director.": "Veel ondernemers hebben liquide eigen vermogen in hun onderneming. Het is mogelijk om hiermee zakelijk te beleggen in cryptocurrencies zoals Bitcoin of Ethereum of in een crypto beleggingsfonds zoals BlockchainTraders. Met verschillende ondernemingsvormen kan er belegt worden in crypto, bijvoorbeeld als een zelfstandige ondernemer, zoals een ZZP'er of freelancer met een eenmanszaak of V.O.F. (Vennootschap Onder Firma), of met een BV (Besloten Vennootschap), CV (Commanditaire Vennootschap) of NV (Naamloze Vennootschap) als aandeelhouder en/of bestuurder hiervan.",
+
+    "Tax consequences of business investing in crypto": "Fiscale gevolgen van zakelijk beleggen in crypto",
+
+    "Sole proprietorship or V.O.F.":"Eenmanszaak of V.O.F.",
+
+    "When you invest with a sole proprietorship or V.O.F. you will have to pay tax in Box 3. Box 3 is the tax category where savings and investments are taxed. As the owner of a sole proprietorship, you are the legal entity within the company. This means that no distinction is made between private and business.": "Wanneer je belegt met een eenmanszaak of V.O.F. zul je belasting moeten betalen in Box 3. Box 3 is de belastingcategorie waar spaar- en beleggingsmiddelen worden belast. Je bent als eigenaar van een eenmanszaak zelf de rechtspersoon binnen de onderneming. Dit betekent dat er geen onderscheid wordt gemaakt tussen privé en zakelijk.",
+
+    "A company (BV, NV or CV)": "Een vennootschap (BV, NV of CV)",
+
+    "For a BV, NV and CV, corporate tax applies on the profit achieved. The corporate tax rate can vary depending on the amount of profit and other factors. If you decide to consider cryptocurrency as an investment used for business purposes, you may be able to apply depreciation. The rules for depreciation can be complex and may depend on factors such as the nature of the investment and its sustainability. When investing in cryptocurrency, you must assign a value to your assets for the company's annual accounts. Value can fluctuate, and it is important to use a consistent and reasonable valuation method. This may affect the company's annual results and tax liabilities.": "Voor een BV, NV en CV geldt de vennootschapsbelasting op de behaalde winst. Het tarief voor de vennootschapsbelasting kan variëren, afhankelijk van de hoogte van de winst en andere factoren. Als je besluit om cryptocurrency als een investering te beschouwen die wordt gebruikt voor bedrijfsdoeleinden, kun je mogelijk afschrijvingen toepassen. De regels voor afschrijvingen kunnen complex zijn en kunnen afhangen van factoren zoals de aard van de investering en de duurzaamheid ervan. Bij beleggen in cryptocurrency moet je een waarde toekennen aan je bezit voor de jaarrekening van de vennootschap. De waarde kan fluctueren, en het is belangrijk om een consistente en redelijke waarderingsmethode te hanteren. Dit kan invloed hebben op de jaarlijkse resultaten en belastingverplichtingen van de vennootschap.",
+
+    "Although private investing seems at first glance to be the most attractive with expected profits, investing through a private company (BV) is now also an interesting choice, because of the new regulation in which the RC ratio is limited to 700,000 euros. About 40% of the participants at BlockchainTraders invest commercially, mainly with a BV or a CV. At BlockchainTraders you do not buy cryptocurrencies directly, but you buy participations in an AFM registered investment fund with underlying investments in cryptocurrencies. This fund structuring means that you as a participant are assured that your investment is viewed as a business investment.": "Hoewel privé beleggen op het eerste gezicht het meest aantrekkelijk lijkt bij verwachte winsten, is investeren vanuit een besloten vennootschap (BV) nu ook een interessante keuze, vanwege de nieuwe regeling waarbij de RC-verhouding beperkt wordt tot 700.000 euro. Ongeveer 40% van de participanten bij BlockchainTraders belegt zakelijk, voornamelijk wordt er belegd met een BV of met een CV. Bij BlockchainTraders koopt u niet direct cryptocurrencies maar koopt u participaties in een AFM geregistreerd beleggingsfonds waar onderliggend belegd wordt in cryptocurrencies. Door deze fondsstructurering ben u als participant er zeker van dat uw belegging wordt gezien als een zakelijke belegging.",
+
+    "Download our brochure": "Download onze brochure",
+
+    "Investing in crypto with your business | BlockchainTraders": "Zakelijk beleggen in crypto | BlockchainTraders",
+
+    "Investing in crypto with your business": "Zakelijk beleggen in crypto",
+
+    "Business investing with BlockchainTraders": "Zakelijk beleggen bij BlockchainTraders",
+
+    "The cryptocurrency market is growing rapidly. More and more applications are emerging and the number of different cryptocurrencies and the applications of these cryptocurrencies are also increasing rapidly. The cryptocurrency market is becoming increasingly complex and it is therefore increasingly difficult and time-consuming to respond to opportunities in the market. This is why crypto asset management may be interesting for you. A professional crypto asset manager has the resources to minimize your risks and maximize your returns.": "De cryptocurrency markt groei snel. Er ontstaan steeds meer toepassingen en de hoeveelheid verschillende cryptocurrencies en ook de toepassingen van deze cryptocurrencies nemen in rap tempo toe. De cryptocurrency markt wordt steeds complexer en het is daardoor steeds lastiger en tijdrovender om op kansen in de markt in te spelen. Dit is waarom crypto vermogensbeheer interessant voor u kan zijn. Een professionele crypto vermogensbeheerder heeft de middelen om uw risico’s te minimaliseren en uw rendement te maximaliseren.",
+
+    "Crypto asset management | BlockchainTraders": "Crypto vermogensbeheer | BlockchainTraders",
+
+    "Crypto asset management": "Crypto vermogensbeheer",
+   
+    "What are the benefits of crypto asset management?": "Wat zijn de voordelen van crypto vermogensbeheer?",
+
+    "Diversification": "Diversificatie",
+    
+    "One of the fundamental principles of asset management is diversification. By spreading your investments across different cryptocurrencies, you reduce the risk of big losses due to price volatility.": "Een van de fundamentele principes van vermogensbeheer is diversificatie. Door uw investeringen over verschillende cryptovaluta's te spreiden, vermindert u het risico van grote verliezen als gevolg van prijsvolatiliteit.",
+    
+    "Risk assessment": "Risicobeoordeling",
+
+    "A professional crypto asset management company conducts comprehensive risk assessments to understand and manage your exposure to market fluctuations.": "Een professioneel crypto vermogensbeheerder voert uitgebreide risicoanalyses uit om uw blootstelling aan marktschommelingen te begrijpen en te beheren.",
+
+    "Portfolio optimization": "Portefeuille-optimalisatie",
+
+    "Experts in crypto asset management can continuously optimize your portfolio to ensure you take advantage of the best opportunities in the market.": "Experts in crypto vermogensbeheer kunnen uw portefeuille voortdurend optimaliseren om ervoor te zorgen dat u profiteert van de beste kansen in de markt.",
+
+    "Security": "Beveiliging",
+
+    "Safely storing your crypto assets is of utmost importance. Crypto asset managers use state-of-the-art security measures and cold storage solutions to protect your assets from hackers and theft.": "Het veilig opslaan van uw crypto-activa is van het grootste belang. Crypto vermogensbeheerders gebruiken state-of-the-art beveiligingsmaatregelen en koude opslagoplossingen om uw activa te beschermen tegen hackers en diefstal.",
+
+    "Return maximization": "Rendementsmaximalisatie",
+
+    "By actively trading and using strategies such as staking and yield farming, crypto asset managers can maximize your returns.": "Door actief te handelen en strategieën zoals staken en yield farming te gebruiken, kunnen crypto vermogensbeheerders uw rendement maximaliseren.",
+
+    "Asset management at BlockchainTraders": "Vermogensbeheer bij BlockchainTraders",
+
+    "At BlockchainTraders you can invest in actively managed investment funds. We understand the unique challenges and opportunities of the crypto market and adapt our strategies accordingly. By adding an investment with BlockchainTraders to your traditional investment portfolio, you can significantly increase the return on the total portfolio and reduce dependence on traditional assets.": "Bij BlockchainTraders kunt u beleggen in actief beheerde beleggingsfondsen. We begrijpen de unieke uitdagingen en kansen van de cryptomarkt en passen onze strategieën dienovereenkomstig aan. Door een belegging bij BlockchainTraders toe te voegen aan uw traditionele beleggingsportefeuille kunt u het rendement van de totale portefeuille significant verhogen en de afhankelijkheid met traditionele assets verlagen.",
+
+    "What is a Bitcoin fund? | BlockchainTraders": "Wat is een Bitcoin Fonds | BlockchainTraders",
+
+    "What is a Bitcoin fund?": "Wat is een Bitcoin fonds?",
+
+    "A crypto investment fund is a managed fund that invests in various cryptocurrencies and digital assets on behalf of its investors. The aim of these funds is to maximize the potential returns of crypto investments while managing risks. If you choose to participate in a crypto investment fund, you will benefit from the expertise and experience of our team. Our professionals closely monitor the crypto markets and continuously analyze the potential investment opportunities. They take the complexity and technical aspects of crypto investments off your hands, so you can focus on other important things in your life.": "Een crypto beleggingsfonds is een beheerd fonds dat belegt in verschillende cryptocurrencies en digitale activa namens zijn beleggers. Het doel van deze fondsen is om de potentiële rendementen van crypto beleggingen te maximaliseren en tegelijkertijd de risico's te beheersen. Als u ervoor kiest om deel te nemen aan een crypto beleggingsfonds, profiteert u van de expertise en ervaring van ons team. Onze professionals volgen de cryptomarkten nauwlettend en analyseren voortdurend de potentiële investeringskansen. Ze nemen de complexiteit en technische aspecten van crypto investeringen uit handen, zodat u zich kunt concentreren op andere belangrijke zaken in uw leven.",
+
+    "What are the benefits of a Bitcoin Fund?": "Wat zijn de voordelen van een Bitcoin Fonds?",
+
+    "A Bitcoin Fund offers various advantages, below we list the most important ones:": "Een Bitcoin Fonds biedt diverse voordelen, hieronder sommen we de belangrijkste op:",
+
+    "Diversify your portfolio": "Diversificatie van uw portfolio",
+
+    "By investing in a crypto fund, you usually invest not only in Bitcoin but also in other cryptocurrencies. This spreads the risk and increases the chance of positive returns.": "Door te beleggen in een crypto fonds wordt er meestal niet alleen belegt in Bitcoin maar ook in andere cryptocurrencies. Hierdoor spreidt u het risico en vergroot u de kans op positieve rendementen.",
+
+    "Access to professional strategies": "Toegang tot professionele strategieën",
+
+    "By investing in a crypto fund you can gain access to advanced investment techniques and strategies that are normally only available to large institutional investors.": "Door te beleggen in een crypto fonds kunt u toegang krijgen tot geavanceerde beleggingstechnieken en strategieën die normaal alleen beschikbaar zijn voor grote institutionele beleggers.",
+
+    "Secure storage of Bitcoin": "Veilige opslag van Bitcoin",
+
+    "By investing with a crypto fund such as BlockchainTraders, you can be assured that all Bitcoin and other cryptocurrencies in the portfolio are stored as securely as possible. See also our page:": "Door te beleggen bij een crypto fonds zoals BlockchainTraders, bent u er zeker van dat alle Bitcoin en andere cryptocurrencies in het portfolio zo veilig mogelijk zijn opgeslagen. Zie ook onze pagina:",
+    
+    "Bitcoin Fund variants": "Bitcoin Fonds varianten",
+
+    "Actively managed funds": "Actief beheerde fondsen",
+
+    "These funds are managed by a team of experts who actively make decisions about which cryptocurrencies and digital assets to buy and sell. They aim to generate returns through trading strategies, market analysis and research. Actively managed funds can follow different strategies, such as arbitrage, market timing or portfolio diversification. Our BlockchainTraders Growth Fund is an example of a fund that is actively managed.": "Deze fondsen worden beheerd door een team van experts die actief beslissingen nemen over welke cryptocurrencies en digitale activa moeten worden gekocht en verkocht. Ze streven ernaar om rendementen te genereren door middel van handelsstrategieën, marktanalyse en onderzoek. Actief beheerde fondsen kunnen verschillende strategieën volgen, zoals arbitrage, markttiming of portefeuille diversificatie. Ons BlockchainTraders Growth Fund is een voorbeeld van een fonds dat actief wordt beheerd.",
+
+    "Passive index funds": "Passieve indexfondsen",
+
+    "This type of fund follows a passive investment strategy and aims to match the returns of a specific benchmark index. These funds invest in a wide range of cryptocurrencies that make up the selected index, and attempt to mimic the performance of the market rather than actively trading.": "Dit type fonds volgt een passieve investeringsstrategie en streeft ernaar om het rendement van een specifieke benchmarkindex te evenaren. Deze fondsen beleggen in een breed scala aan cryptocurrencies die deel uitmaken van de geselecteerde index, en proberen de prestaties van de markt na te bootsen in plaats van actief te handelen.",
+
+    "Sector or theme funds": "Sector- of themafondsen",
+
+    "These funds focus on specific sectors or themes within the crypto industry. For example, they can invest in DeFi (Decentralized Finance), NFTs (Non-Fungible Tokens), Privacycoins or other emerging trends and technologies within the crypto world. By focusing on a particular sector or theme, these funds aim to capitalize on the growth potential and opportunities within that specific area.": "Deze fondsen richten zich op specifieke sectoren of thema's binnen de crypto-industrie. Ze kunnen bijvoorbeeld investeren in DeFi (Decentralized Finance), NFT's (Non-Fungible Tokens), Privacycoins of andere opkomende trends en technologieën binnen de crypto-wereld. Door zich te concentreren op een bepaalde sector of thema, streven deze fondsen ernaar om te profiteren van de groeipotentie en kansen binnen dat specifieke gebied.",
+
+    "Cryptocurrency hedge funds": "Cryptocurrency hedgefondsen",
+
+    "Hedge funds often have a more flexible investment strategy and can use complex trading strategies such as short selling, derivatives trading and leverage. They aim for positive returns even in down markets by using various investment strategies and risk management techniques. Our BlockchainTraders Liquidity Fund is an example of a cryptocurrency hedge fund.": "Hedgefondsen hebben vaak een meer flexibele beleggingsstrategie en kunnen gebruikmaken van complexe handelsstrategieën, zoals short selling, derivatenhandel en hefboomwerking. Ze streven naar positieve rendementen, zelfs in neergaande markten, door gebruik te maken van verschillende investeringsstrategieën en risicobeheerstechnieken. Ons BlockchainTraders Liquidity Fund is een voorbeeld van een cryptocurrency hedgefonds.",
+
+    "What is crypto asset management? [+VIDEO] | BlockchainTraders": "Alles over crypto vermogensbeheer [+VIDEO] | BlockchainTraders",
+
+    "How does investing in crypto with your business work in 2023? Step-by-step explanation [+VIDEO]": "Zakelijk beleggen in crypto | Alle informatie voor bedrijven",
+
+    "What is a Bitcoin fund? All the information to get started [+VIDEO]": "Bitcoin fonds | Alle informatie om te gaan beleggen",
+
+    "Office": "Kantoor",
+
+    "Branch office": "Bijkantoor",
+
+    "Directly to": "Direct naar",
+
+    "What is a Bitcoin fund? >": "Wat is een Bitcoin fonds? >",
+
+    "Crypto asset management >": "Crypto vermogensbeheer >",
+
+    "Investing in crypto with your business >": "Zakelijk beleggen in crypto >",
+
+    "Everything about crypto asset management [+VIDEO]": "Alles over crypto vermogensbeheer [+VIDEO]",
+
+    "Learn everything about crypto asset management and discover what the benefits can be for you. Customized step-by-step explanation.": "Kom alles te weten over crypto vermogensbeheer en ontdek wat de voordelen voor jou kunnen zijn. Stap-voor-stap uitleg op maat.",
+
+    "Explore the world of crypto business investing with comprehensive insights and strategies. Customized step-by-step explanation.":"Alles over het beleggen in Bitcoin en andere cryptocurrencies met een BV, CV, NV, stichting, eenmanszaak of VOF.",
+
+    "Discover what a Bitcoin fund entails and gain clear insights into its operation and benefits in one informative source.": "Ontdek wat een Bitcoin fonds inhoudt en krijg heldere inzichten over de werking en voordelen ervan in één informatieve bron.",
+
+    "I am interested": "Ik heb interesse",
+
+    "knowledge base": "kennisbank",
+    "Invest successfully in crypto yourself with the knowledge of the experts at BlockchainTraders": "Zelf succesvol beleggen in crypto met de kennis van de experts van BlockchainTraders",
+    "Everything about solid investing in crypto": "Alles over solide beleggen in crypto",
+    "The latest crypto news every week": "Wekelijks het laatste crypto nieuws",
+    "Earn interest on your cryptos through DeFi and staking": "Ontvang rente op je crypto's door DeFi en staking",
+    "Only :monthlyPrice per month": "Slechts :monthlyPrice per maand",
+
+    "Register direct": "Registreer direct",
+    "Type of subscription": "Soort abonnnement",
+    "Annual": "Jaarlijks",
+    "p/y": "p/j",
+    "Continue": "Ga verder",
+
+    "Optimally respond to trends and developments": "Optimaal inspelen op trends en ontwikkelingen",
+    "BlockchainTraders was founded by Michiel van der Steeg and Justin Kool. Justin bought his first Bitcoin in 2014. In 2017, Justin and Michiel gained a lot of cryptocurrency experience together. They have outperformed the market by more than 30% this year and started BlockchainTraders with their cryptocurrency returns.": "BlockchainTraders is opgericht door Michiel van der Steeg en Justin Kool. Justin kocht zijn eerste Bitcoin in 2014. In 2017 hebben Justin en Michiel samen veel cryptocurrency ervaring opgedaan. Zij hebben in dit jaar de markt met meer dan 30% outperformed en startten met hun cryptocurrency opbrengsten BlockchainTraders.",
+
+    "Subscriptions": "Abonnementen",
+
+    "Access to the entire knowledge base": "Toegang tot de volledige kennisbank",
+    "Access to all blog articles": "Toegang tot alle blogartikelen",
+    "Monthly terminable": "Maandelijks opzegbaar",
+    "Discount for annual subscription": "Korting voor jaarlijks abonnement",
+    "Start immediately": "Begin direct",
+
+    "Useful articles": "Nuttige artikelen",
+    "BlockchainTraders' articles helped me immensely to get started with investing.": "De artikelen van BlockchainTraders hebben me enorm geholpen om aan de slag te gaan met beleggen.",
+
+    "LEARN MORE": "KOM MEER TE WETEN",
+
+    "I am interested in…": "Ik heb interesse in…",
+    "Knowledge base": "Kennisbank",
+    "Both": "Beide",
+
+    "Payment successful": "Betaling geslaagd",
+    "Your subscription has started successfully. We've sent you an email with more instructions.": "Uw abonnement is succesvol gestart. We hebben u een e-mail gestuurd met meer instructies.",
+    "To login screen": "Naar inlogscherm",
+    "Back to previous page": "Terug naar vorige pagina",
+
+    "Payment failed": "Betaling mislukt",
+    "Unfortunately something went wrong with the payment. Please try again or contact us.": "Helaas is er iets misgegaan met de betaling. Probeer het nogmaals, of neem contact met ons op.",
+    "Try again": "Opnieuw proberen",
+
+    "Already subscribed": "Reeds geabonneerd",
+
+    "monthly": "maandelijks",
+    "annual": "jaarlijks",
+
+    "More": "Meer",
+
+    "Why you should invest in crypto in a managed manner and not by yourself": "Waarom je beheerd moet beleggen in crypto en niet zelf",
+
+    "Managed investing in crypto is essential for those who want to invest in the fast-paced world of cryptocurrencies, but do not have the time to follow the market themselves. Managed investing reduces the complexity and risks compared to independent investing by building a portfolio in a diversified manner according to a fixed strategy, which reduces the risk of major losses. In addition, advanced security techniques from asset managers ensure the safest storage of your crypto.": "Beheerd beleggen in crypto is essentieel voor diegene die willen investeren in de snelle wereld van cryptocurrencies, maar zelf niet de tijd hebben om de markt te volgen. Beheerd beleggen vermindert de complexiteit en risico’s ten opzichte van zelfstandig beleggen door gespreid een portfolio op te bouwen volgens een vaste strategie waardoor het risico op grote verliezen afneemt. Daarnaast zorgen geavanceerde beveiligingstechnieken van vermogensbeheerders voor de veiligste opslag van je crypto.",
+
+    "Crypto asset management | All information about managed investing": "Crypto vermogensbeheer | Alle informatie over beheerd beleggen",
+
+    "SPECIAL OFFER": "SPECIALE AANBIEDING",
+
+    "Portal": "Portaal",
+
+    "BlockchainTraders Portal": "BlockchainTraders Portaal",
+
+    "By investing with BlockchainTraders, you gain exclusive access to our user-friendly portal. It is designed to keep you closely connected with your investment's performance, ensuring you have the insights you need to watch your investments grow.": "Door te beleggen bij BlockchainTraders krijgt u exclusieve toegang tot ons gebruiksvriendelijke portaal. Het is ontworpen om u een direct beeld te geven in de prestaties van uw beleggingen, zodat u de informatie heeft om uw investeringen te volgen en te zien groeien.",
+
+    "INFORMED INVESTING": "GEÏNFORMEERD BELEGGEN",
+
+    "Discover our portal through this video": "Ontdek ons portaal via deze video",
+
+    "Real Time Portfolio Insights": "Realtime inzicht in uw belegging",
+
+    "Our portal provides instant access to the latest information on your investments, from current valuations to historical performance data. It's our commitment to offer you a transparent view of your investments, anytime and anywhere, so you can feel secure and informed at every step of your investment journey.": "Ons portaal biedt toegang tot de meest recente informatie over uw belegging, van huidige waarderingen tot historische prestatiegegevens. Het biedt een transparant overzicht van uw beleggingen zodat u altijd en overal geïnformeerd bent.",
+
+    "BI-WEEKLY FACTSHEETS": "TWEEWEKELIJKSE FACTSHEETS",
+
+    "Every two weeks, we upload a curated factsheet directly in the portal, filled with essential data on the performance of the fund.": "Elke twee weken uploaden we een factsheet rechtstreeks in uw persoonlijke portaal omgeving, vol met essentiële gegevens over de prestatie van het fonds.",
+
+    "Bi-Weekly Factsheets": "Tweewekelijkse Factsheets",
+
+    "Portal | BlockchainTraders": "Portaal | BlockchainTraders", 
+
+    "Please select a moment": "Selecteer een moment",
+    "Morning": "Ochtend",
+    "Afternoon": "Middag",
+    "Evening": "Avond",
+
+    "MONTHLY": "MAANDELIJKS",
+    "SINCE START": "SINDS START",
+    "CURRENT VALUE": "HUIDIGE WAARDE",
+
+    "ALL": "SINDS START"
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+}

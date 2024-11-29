@@ -1,0 +1,33 @@
+:root {
+    --bct-black-semi-transparant:           rgba(0, 0, 0, 0.75);
+
+    --bct-gray:                             rgba(224, 224, 224, 1);
+    
+    --bct-gray-line:                        rgba(234, 236, 237, 1);
+
+    --bct-dark-mode-gray-line:              rgba(238, 238, 238, 0.08);
+
+    --light-gray-background:                rgba(244, 244, 244, 1);
+    --bct-light-gray:                       rgba(244, 244, 244, 1);
+
+    --bct-gray-text:                        rgba(64, 64, 64, 1);
+
+    --bct-dark-mode-text-on-card:           rgba(207, 207, 207, 1);
+
+    --bct-dark-mode-text-on-dark:           rgba(255, 255, 255, 0.75);
+
+    --bct-dark-mode-background:             black;
+    --bct-dark-mode-card-background:        rgba(22, 24, 35, 1);
+    --bct-dark-mode-card-background-hover:  rgba(224, 224, 224, 0.08);
+
+    --bct-dark-mode-dropdown-border:        rgba(224,224,224,0.08);
+
+    --bct-blue:                             rgba(44, 130, 190, 1);
+    --bct-blue-semi-transparant:            rgba(44, 130, 190, 0.4);
+
+    --bct-green:                            rgba(85, 166, 65, 1);
+    --bct-green-semi-transparant:           rgba(85, 166, 65, 0.4);
+
+    --bct-alt-green:                        rgba(102, 189, 81, 1);
+    --bct-alt-green-semi-transparant:       rgba(102, 189, 81, 0.4);
+}

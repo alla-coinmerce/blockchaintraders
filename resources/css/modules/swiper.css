@@ -1,0 +1,42 @@
+.swiper.block {
+    width: 100%;
+    max-width: calc(100vw - 2rem);
+    height: 220px;
+
+    overflow: hidden;
+}
+
+.swiper.block .swiper-slide {
+    background-color: #161823;
+
+    border-radius: 5px;
+    padding: 1.5rem 1rem;
+
+    width: 100px;
+}
+
+.swiper.block .swiper-slide h3 {
+    color: white;
+    font-weight: 400;
+}
+
+@media (max-width: 700px) {
+    .swiper.block .swiper-slide h3 {
+        font-size: 0.9rem;
+    }
+
+    .swiper.block .swiper-slide p {
+        line-height: 1.4rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 700px) {
+    .swiper.block .swiper {
+        max-width: 940px;
+    }
+
+    .swiper.block .swiper-slide {
+        width: 300px;
+    }
+}

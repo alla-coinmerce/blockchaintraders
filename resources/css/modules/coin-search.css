@@ -1,0 +1,20 @@
+.coin_search .searchresults {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+
+    max-height: 400px;
+    overflow: auto
+}
+
+.coin_search .searchresults .searchresult {
+    cursor: pointer;
+
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    background-color: #f6f6f6;
+}
+
+.coin_search .searchresults .searchresult:hover {
+    background-color: #eee;
+}

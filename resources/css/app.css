@@ -1,0 +1,5013 @@
+@import url("themes/default.css");
+@import url("themes/dark.css");
+@import url("modules/coin-search.css");
+@import url("modules/portal-welcome.css");
+@import url("modules/personal-documents");
+@import url("modules/registration-form.css");
+@import url("modules/special-offer-sticker.css");
+@import url("modules/swiper.css");
+@import url("modules/chartjs-fund-chart.css");
+@import url("modules/sticky-banner.css");
+
+/**
+* BROWSER FIXES
+*/
+
+/* Fix for missing padding on iPhone */
+input:not(input[type="radio"]):not(input[type="checkbox"]),
+select {
+    height: 45px;
+}
+
+/**
+* COLORS
+*/
+
+.website.dark-mode header {
+    background: 
+                /* Top radial gradient */ radial-gradient(
+            circle at bottom,
+            rgba(7, 28, 48, 0) 0%,
+            rgba(12, 12, 22, 0.94) 70%
+        ),
+        /* Grid */ linear-gradient(45deg, #ffffff35 1px, transparent 1%) center,
+        /* Bottom radial gradient */
+            radial-gradient(circle at bottom, #071c30 0%, #0c0c16 100%),
+        /* Bottom background */ #0c0c16;
+    background-color: #0c0c16;
+    background-size: 100%, 14px 14px, 100%, 100%;
+}
+
+#growthfundpage header {
+    background: 
+                /* Top radial gradient */ radial-gradient(
+            circle at bottom,
+            rgba(7, 28, 48, 0) 0%,
+            rgba(12, 12, 22, 0.2) 70%,
+            rgba(12, 12, 22, 0.5) 100%
+        ),
+        /* Grid */ linear-gradient(45deg, #ffffff35 1px, transparent 1%) center,
+        /* Bottom background */ /* Image */
+            url("../../public/assets/images/funds/growth_fund/header_background.jpg")
+            center;
+    background-color: #0c0c16;
+    background-size: 100%, 14px 14px, 100%;
+}
+
+#liquidityfundpage header {
+    background: 
+                /* Top radial gradient */ radial-gradient(
+            circle at bottom,
+            rgba(7, 28, 48, 0) 0%,
+            rgba(12, 12, 22, 0.2) 70%,
+            rgba(12, 12, 22, 0.5) 100%
+        ),
+        /* Grid */ linear-gradient(45deg, #ffffff35 1px, transparent 1%) center,
+        /* Bottom background */ /* Image */
+            url("../../public/assets/images/funds/liquidity_fund/header_background.jpg")
+            no-repeat center;
+    background-color: #0c0c16;
+    background-size: 100%, 14px 14px, cover;
+}
+
+.website.dark-mode .faq button,
+.website.dark-mode header section,
+.pagination button,
+.dark-mode .pagination button,
+#get_to_know_more form input,
+#get_to_know_more form button,
+#download_brochure form input,
+#download_brochure form button,
+.dark-mode .growth_fund .button,
+.dark-mode .liquidity_fund .button,
+.dark-mode button.link,
+input[type="submit"].alt,
+button.alt,
+.button.alt,
+.summaryButton,
+.summaryButton:hover,
+.dark-mode input[type="submit"].alt,
+.dark-mode button.alt,
+.dark-mode .button.alt,
+.dark-mode .summaryButton,
+.dark-mode .summaryButton:hover {
+    background-color: transparent;
+}
+
+.dark-mode body,
+.website footer {
+    background-color: black;
+}
+
+.dark-mode .fund,
+.dark-mode .fundplot .plotly .modebar-group {
+    background-color: #07070d !important;
+}
+
+.dark-mode section#total_value,
+.dark-mode section#achieved_return {
+    background-color: #07070d;
+}
+
+.dark-mode .fundplot .plotly .infolayer .legend .bg {
+    fill: transparent !important;
+}
+
+.website body,
+.website.dark-mode section,
+.dark-mode #recovery_codes,
+.dark-mode #mobile_menu,
+.dark-mode .modal {
+    background-color: #0c0c16;
+}
+
+#blog_contact,
+.safetyMeasure,
+.dropdown_content,
+/* .website nav.sticky, */
+.website .fund_return_figures,
+.website section.fund_info,
+#focal_points,
+#our_funds .block,
+.portal.dark-mode header,
+.dark-mode section,
+.dark-mode section.with_details .summary {
+    background-color: #161823;
+}
+
+.dark-mode .fundplot .main-svg {
+    background: #1618232e !important;
+}
+
+.dark-mode input[type="submit"],
+.dark-mode button,
+.dark-mode .button {
+    background-color: #2c82be2e;
+}
+
+#registerpage form input::file-selector-button:hover,
+.dark-mode input[type="submit"]:hover,
+.dark-mode button:hover:not(button.link),
+.dark-mode .button:hover,
+#get_to_know_more form button:hover,
+#download_brochure form button:hover,
+.dark-mode.portal table tbody tr:hover {
+    background-color: #2c82be52;
+}
+
+.dark-mode #our_funds .liquidity_fund .button:hover {
+    background-color: #66bd5152;
+}
+
+.website .calendly-badge-widget .calendly-badge-content:hover {
+    background-color: #2c82be52 !important;
+}
+
+#registerpage form input::file-selector-button,
+.header_buttons button,
+#request_info_form_top button,
+#bijstorten.modal,
+#invest.modal {
+    background-color: #2c82be;
+}
+
+.tooltip .tooltiptext {
+    background-color: #555555;
+}
+
+.guest button,
+.guest input[type="submit"] {
+    background-color: #55a641;
+}
+
+.diff.positive {
+    background-color: #66bd511f;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.button:hover,
+.portal table tbody tr:hover,
+.admin table tbody tr:hover {
+    background-color: #c4d8e6;
+}
+
+.diff.negative {
+    background-color: #cc19191f;
+}
+
+input[type="submit"],
+button,
+.button {
+    background-color: #dae5ed;
+}
+
+section.with_details,
+.details.with_details .details {
+    background-color: #eaeced;
+}
+
+.dropdown_content a:hover {
+    background-color: #eff5f8;
+}
+
+.guest body {
+    background-color: #f0f0f0;
+}
+
+#recovery_codes,
+html,
+body,
+.modal {
+    background-color: #f4f4f4;
+}
+
+.team_member_details,
+#invest button,
+#bijstorten button {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.dark-mode .fundplot .plotly .ytitle,
+.dark-mode .fundplot .plotly .ytick text,
+.dark-mode .fundplot .plotly .xtick text,
+.dark-mode .fundplot .plotly .infolayer .legend text,
+.dark-mode .fundplot .plotly .modebar-group .icon path {
+    fill: #ffffff !important;
+}
+
+.dropdown_content,
+#invest_with_blockchaintraders #request_info_form_top,
+.admin header,
+.portal header,
+.admin header,
+.guest main,
+section,
+section.with_details .summary,
+form input:not(input[type="submit"]):not(input[type="file"]),
+form select,
+form textarea,
+.filters input,
+.filters select {
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+form input.alert.alert-danger,
+.website header nav .dropdown_content a,
+#invest_with_blockchaintraders,
+.guest a,
+nav a,
+.summary h2 button,
+.summary h2 button i {
+    color: #000000;
+}
+
+footer nav a,
+.dark-mode header form p,
+#request_info_form_top h2 {
+    color: #ffffff;
+}
+
+.website header nav a:hover,
+.website header nav a:hover i,
+.website header nav span:hover,
+.website header nav span:hover i,
+.website header #request_info_form_top a,
+.website .header_buttons a.button,
+.website #mobile_menu .header_buttons a.button,
+.dark-mode .block.growth_fund h3 span,
+.growth_fund .button,
+.growth_fund .button i,
+a,
+a i,
+.dropdown_button i,
+.dark-mode .team_member li i,
+.dark-mode a i,
+button,
+.dark-mode button i,
+.button,
+#contact #form_success i,
+.summary button,
+.summary button i,
+input[type="submit"],
+table a i {
+    color: #2c82be;
+}
+
+.dark-mode #get_to_know_more form input::placeholder {
+    color: #515151;
+}
+
+.dark-mode #download_brochure form input::placeholder {
+    color: #515151;
+}
+
+.positive,
+.positive .value {
+    color: #55a641 !important;
+}
+
+.dark-mode .block.liquidity_fund h3 span,
+.liquidity_fund .button,
+.liquidity_fund .button i,
+#growthfundpage table i,
+#growthfundpage table .link,
+#growthfundpage .fund_return_figures tbody td,
+#growthfundpage ul li::before,
+#liquidityfundpage table i,
+#liquidityfundpage table .link,
+#liquidityfundpage .fund_return_figures tbody td,
+#the_team ul li::before,
+#liquidityfundpage ul li::before,
+#invest_with_blockchaintraders ul li::before,
+table a i:hover {
+    color: #66bd51;
+}
+
+.dark-mode #footer_menu,
+.dark-mode #footer_menu a,
+.guest label,
+.guest p,
+.guest li {
+    color: #595959;
+}
+
+.website input::placeholder,
+#invest_with_blockchaintraders
+    #request_info_form_top
+    .privacy_declaration_text {
+    color: #aaaaaa;
+}
+
+#registerpage form p.alert.alert-danger,
+.alert.alert-danger,
+.alert-danger,
+input.alert-danger::placeholder,
+.negative,
+.dark-mode .negative,
+.negative .value {
+    color: #cc1919;
+}
+
+#ref_afm h4 {
+    color: #e3e3e3;
+}
+
+.dark-mode nav #mobile_menu a.logout,
+.dark-mode nav a.logout,
+nav .logout,
+nav .logout i {
+    color: #ee1717;
+}
+
+#ref_cashcow h4 {
+    color: #ffcb08;
+}
+
+.website header i {
+    color: var(--bct-black-semi-transparant);
+}
+
+.website header a:not(.button),
+.website header nav span,
+.website.dark-mode header i {
+    color: rgba(255, 255, 255, 0.64);
+}
+
+#registerpage form p,
+#registerpage form label,
+#registerpage input[type="file"],
+#footer_menu,
+.dark-mode #hamburger,
+.website.dark-mode h2,
+#focal_points span,
+.website.dark-mode p:not(.subtitle):not(form p),
+.website footer p:not(.subtitle):not(form p),
+.website.dark-mode header p.subtitle,
+.website.dark-mode li,
+.website.dark-mode li span,
+.faq .answer,
+.dark-mode .pagination button i,
+.portal.dark-mode .summary button i:not(.summary button i),
+.dark-mode nav a,
+.dark-mode,
+.dark-mode #hamburger,
+.dark-mode p,
+.dark-mode span,
+.dark-mode b,
+.dark-mode th,
+.dark-mode td,
+.dark-mode #recovery_codes,
+.dark-mode i,
+.dark-mode .summary h2 button i,
+.dark-mode #mobile_menu a,
+.dark-mode form label,
+.dark-mode ul li,
+.dark-mode ol li,
+.dark-mode ul li span,
+.dark-mode header span,
+#homepage.website .block h2,
+.dark-mode #get_to_know_more h2,
+#download_brochure h2,
+#our_funds h3,
+#homepage.website h3 {
+    color: var(--bct-dark-mode-text-on-dark);
+}
+
+#growthfundpage p b,
+#liquidityfundpage p b,
+#registerpage form input::file-selector-button,
+.dark-mode h1,
+.dark-mode h1 span,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode form p,
+.dark-mode form label,
+.header_buttons button,
+#request_info_form_top button,
+#bijstorten .close,
+#bijstorten h1,
+#bijstorten p,
+.dark-mode p.subtitle,
+#bijstorten label,
+#bijstorten label span,
+#bijstorten button,
+#bijstorten #form_success i,
+#invest button,
+.faq button span,
+.faq button i,
+.guest button,
+.guest input[type="submit"],
+.tooltip .tooltiptext,
+.dark-mode #get_to_know_more input,
+#download_brochure input {
+    color: #ffffff;
+}
+
+input[type="submit"].alt,
+button.alt,
+.button.alt {
+    border: 2px solid #2c82be2e;
+}
+
+#get_to_know_more form button,
+#download_brochure form button,
+.dark-mode .growth_fund .button,
+input[type="submit"].alt:hover,
+button.alt:hover,
+.button.alt:hover {
+    border: 2px solid #2c82be66;
+}
+
+.tooltip:hover::after {
+    border-color: #555555 transparent transparent transparent;
+}
+
+#total_value .subtotal,
+#achieved_return .subtotal {
+    border-left: 2px solid #66bd51;
+}
+
+#achieved_return .overall_total,
+#total_value .overall_total {
+    border-left: 3px solid #66bd51;
+}
+
+.dark-mode .liquidity_fund .button {
+    border: 2px solid #66bd5166;
+}
+
+input:not(input[type="submit"]):not(input[type="file"]).is-invalid,
+select.is-invalid {
+    border: 2px solid #cc1919;
+}
+
+.guest main,
+input:not(input[type="submit"]):focus,
+select:focus,
+.filters input:focus,
+.filters select:focus {
+    border: 2px solid #d4d4d4;
+}
+
+.website .fund_info hr {
+    border: 1px 0 0 0;
+    border-style: solid;
+    border-color: #000000;
+    opacity: 1;
+}
+
+hr,
+.details table tfoot {
+    border-top: 1px solid #e0e0e0;
+}
+
+.website
+    main
+    section:not(:last-child):not(section.fund_info):not(
+        section#about_the_fund
+    ):not(section#blog_article),
+.faq:not(:last-child) {
+    border-bottom: 1px solid #e0e0e01f;
+}
+
+#about a {
+    border-bottom: 1px solid #2c82be;
+}
+
+button.link {
+    border-bottom: 1px solid #2c82be66;
+}
+
+.dark-mode hr,
+.details hr {
+    border-top: 1px solid #eeeeee;
+}
+
+.dark-mode .details table tfoot {
+    border-top: 1px solid #eeeeee29;
+}
+
+.website form input[type="text"] {
+    border-width: 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#get_to_know_more form input {
+    border-bottom: 1px solid #e0e0e02e;
+}
+#download_brochure form input {
+    border-bottom: 1px solid #e0e0e02e;
+}
+
+.website .modal form input[type="text"],
+.website .modal form input[type="number"],
+.website .modal form input[type="date"],
+.website .modal form select,
+.website .modal form textarea,
+.admin form input[type="text"],
+.admin form input[type="number"],
+.admin form input[type="date"],
+.admin form select,
+.admin form textarea,
+.guest form input[type="text"],
+.guest form input[type="number"],
+.guest form input[type="password"],
+.guest form select,
+.guest form textarea,
+.portal form input[type="text"],
+.portal form input[type="number"],
+.portal form input[type="password"],
+.portal form input[type="date"],
+.portal form select,
+.portal form textarea,
+.filters input,
+.filters select {
+    border: 2px solid #eaeced;
+}
+
+table tfoot {
+    border-top: 1px solid #eeeeee;
+}
+
+.admin table thead,
+.portal table thead {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.dropdown_content,
+.website .modal form input[type="text"],
+.website .modal form input[type="number"],
+.website .modal form input[type="date"],
+.website .modal form select,
+.website .modal form textarea,
+.admin form input[type="text"],
+.admin form input[type="number"],
+.admin form input[type="date"],
+.admin form select,
+.admin form textarea,
+.guest form input[type="text"],
+.guest form input[type="number"],
+.guest form input[type="password"],
+.guest form select,
+.guest form textarea,
+.portal form input[type="text"],
+.portal form input[type="number"],
+.portal form input[type="password"],
+.portal form select,
+.portal form input[type="date"],
+.portal form textarea,
+.filters input,
+.filters select.alert-danger,
+.guest main,
+section#total_value .summary,
+section#achieved_return .summary,
+section#documents,
+section.fund .summary:not(.summary_inner .summary) {
+    -webkit-box-shadow: 2px 0 22px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 2px 0 22px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 0 22px 0 rgba(0, 0, 0, 0.05);
+}
+
+#about .image_block img,
+#investing_intro .image_block img,
+#added_value .image_block img,
+#safety_intro img,
+#investing_in_crypto_with_your_business_intro img,
+#about_intro img {
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+}
+
+button.link,
+button.link {
+    border-radius: 0;
+}
+
+.dropdown_content,
+.dropdown_content a,
+span.diff {
+    border-radius: 3px;
+}
+
+.safetyMeasure,
+#safety_intro img,
+#investing_intro .image_block img,
+#added_value .image_block img,
+#about_intro img,
+#about img,
+#invest_with_blockchaintraders #request_info_form_top {
+    border-radius: 4.39px;
+}
+
+.website .calendly-badge-widget .calendly-badge-content,
+iframe,
+#registerpage form input,
+#registerpage form select,
+#registerpage form input::file-selector-button,
+input[type="submit"],
+button:not(.faq button):not(button.link),
+.button,
+.website .modal form input[type="text"],
+.website .modal form input[type="number"],
+.website .modal form select,
+.website .modal form textarea,
+.admin form input[type="text"],
+.admin form input[type="number"],
+.admin form select,
+.admin form textarea,
+.guest form input[type="text"],
+.guest form input[type="number"],
+.guest form input[type="password"],
+.guest form select,
+.guest form textarea,
+.portal form input[type="text"],
+.portal form input[type="number"],
+.portal form input[type="password"],
+.portal form select,
+.portal form textarea,
+form input[type="date"],
+.filters input,
+.filters select,
+.guest main,
+section.with_details,
+section.with_details .details,
+section,
+section.with_details .summary {
+    border-radius: 4px;
+}
+
+section div.details.with_summary .summary,
+section.with_details summary {
+    border-radius: 0 0 4px 4px;
+}
+
+.tooltip .tooltiptext {
+    border-radius: 6px;
+}
+
+#registerpage form input::file-selector-button,
+input[type="submit"],
+button {
+    border: none;
+}
+
+.tooltip:hover::after {
+    border-width: 5px 5px 0 5px;
+    border-style: solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+form input:not(input[type="submit"]):not(input[type="file"]),
+form select,
+form textarea,
+.filters input,
+.filters select {
+    outline: none;
+}
+
+/**
+* CONTENT
+*/
+
+.tooltip:hover::after {
+    content: "";
+}
+
+#growthfundpage ul li::before,
+#liquidityfundpage ul li::before,
+#invest_with_blockchaintraders ul li::before {
+    content: "✓";
+}
+
+#the_team ul li::before {
+    content: "\2B29";
+}
+
+/**
+* LIST STYLE
+*/
+
+section#our_funds ul li,
+section#funds ul li,
+.details ul li {
+    list-style-type: none;
+}
+
+#the_team ul,
+#growthfundpage ul li,
+#liquidityfundpage ul li,
+#invest_with_blockchaintraders ul li {
+    list-style: none;
+}
+
+/**
+* VISIBILITY
+*/
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/**
+* OPACITY
+*/
+
+.dark-mode hr {
+    opacity: 0.16;
+}
+
+/**
+* ANIMATIONS AND TRANSITIONS
+*/
+
+.tooltip .tooltiptext {
+    transition: opacity 0.3s;
+}
+
+/**
+* FONTS
+*/
+
+.website .calendly-badge-widget .calendly-badge-content {
+    font-family: Graphik;
+}
+
+header h1,
+.overall_total {
+    font-size: 32px;
+}
+
+.fund_return_figures td {
+    font-size: 30px;
+}
+
+h1,
+#the_team h2,
+#our_safety_measures h2,
+#our_funds h2,
+#featured h2,
+#partners h2,
+#about_the_fund h2,
+#get_to_know_more_with_video p.subtitle,
+#how_can_i_invest p.subtitle,
+#investing_intro p.subtitle,
+#added_value p.subtitle,
+#invest_future_oriented_business p.subtitle,
+#invest_future_oriented p.subtitle,
+#about p.subtitle,
+#get_to_know_more p.subtitle,
+#download_brochure p.subtitle,
+.close {
+    font-size: 24px;
+}
+
+h3 span {
+    font-size: 21px;
+}
+
+nav #mobile_menu a,
+.subtotal {
+    font-size: 20px;
+}
+
+#our_funds ul li,
+h2,
+.summary h2 button,
+.team_member_details h3,
+header section p {
+    font-size: 16px;
+}
+
+.safetyMeasure h3,
+.faq button,
+.faq .answer {
+    font-size: 15px;
+}
+
+.website li,
+#about_the_fund ul li,
+.website p,
+nav #mobile_menu .header_buttons a,
+h3,
+span.diff .value,
+.details ul li,
+nav span,
+p,
+p.subtitle,
+a,
+input[type="submit"],
+#registerpage form input::file-selector-button,
+button,
+.button,
+.summary button {
+    font-size: 14px;
+}
+
+h4,
+th,
+tfoot,
+td {
+    font-size: 13px;
+}
+
+.website .calendly-badge-widget .calendly-badge-content,
+.privacy_declaration,
+.privacy_declaration a,
+footer #footer_menu,
+footer #footer_menu a,
+.details span.diff .value,
+.details span.diff,
+span.diff,
+.reference h4,
+.reference p,
+#focal_points .focal_point {
+    font-size: 12px;
+}
+
+p.small,
+.growth_fund h3,
+.liquidity_fund h3 {
+    font-size: 11px !important;
+}
+
+#get_to_know_more_with_video h2,
+#investing_intro h2,
+#added_value h2,
+#invest_future_oriented_business h2,
+#invest_future_oriented h2,
+#about h2,
+#get_to_know_more h2,
+#download_brochure h2,
+.fund_return_figures th {
+    font-size: 10px;
+}
+
+.modal form label,
+b,
+h1,
+h2,
+.summary h2 button,
+h3,
+h4,
+#get_to_know_more_with_video p.subtitle,
+#how_can_i_invest p.subtitle,
+#investing_intro p.subtitle,
+#added_value p.subtitle,
+#invest_future_oriented_business p.subtitle,
+#invest_future_oriented p.subtitle,
+#download_brochure p.subtitle,
+#about p.subtitle,
+#get_to_know_more p.subtitle,
+.faq button,
+h3 span,
+span.diff .value,
+.details span.diff .value,
+th,
+tfoot,
+.fund_return_figures td {
+    font-weight: 500;
+}
+
+.safetyMeasure h3,
+.website .calendly-badge-widget .calendly-badge-content,
+input[type="submit"],
+button,
+.button,
+.reference h4,
+section h2,
+#our_funds ul li b {
+    font-weight: 400;
+}
+
+.website li,
+#about_the_fund ul li,
+button.link,
+.fund_return_figures tr th,
+.overall_total,
+.subtotal,
+.reference p,
+.growth_fund h3,
+.liquidity_fund h3,
+#our_funds ul li,
+p,
+.guest li {
+    font-weight: 300;
+}
+
+.summary button {
+    font-weight: normal;
+}
+
+.close {
+    font-weight: bold;
+}
+
+.subtotal,
+h3 span {
+    letter-spacing: -0.14px;
+}
+
+h1 {
+    letter-spacing: -0.12px;
+}
+
+.overall_total,
+input[type="submit"],
+button,
+.button {
+    letter-spacing: -0.11px;
+}
+
+footer nav,
+h2,
+h3,
+h4,
+.summary h2 button,
+.faq .answer,
+nav #mobile_menu a,
+span.diff .value,
+.details ul li,
+nav span,
+p,
+p.subtitle,
+.guest li,
+a,
+.summary button,
+th,
+td,
+tfoot,
+#about_the_fund ul li {
+    letter-spacing: -0.1px;
+}
+
+.details span.diff .value,
+.details span.diff,
+span.diff {
+    letter-spacing: -0.09px;
+}
+
+p.small {
+    letter-spacing: -0.08px;
+}
+
+header h1,
+#the_team h2,
+#our_safety_measures h2,
+#our_funds h2,
+#featured h2,
+#partners h2,
+#about_the_fund h2,
+#get_to_know_more_with_video p.subtitle,
+#how_can_i_invest p.subtitle,
+#investing_intro p.subtitle,
+#added_value p.subtitle,
+#invest_future_oriented_business p.subtitle,
+#invest_future_oriented p.subtitle,
+#about p.subtitle,
+#get_to_know_more p.subtitle,
+#download_brochure p.subtitle,
+header section p,
+.faq button,
+#get_to_know_more_with_video p,
+#investing_intro p,
+#added_value p,
+#invest_future_oriented_business p,
+#invest_future_oriented p,
+#safety_intro p,
+#investing_in_crypto_with_your_business_intro p,
+#about_intro p,
+#about p,
+#get_to_know_more p,
+#download_brochure p,
+#our_funds ul li,
+.reference h4,
+.reference p,
+#focal_points .focal_point,
+.fund_return_figures td {
+    letter-spacing: 0;
+}
+
+.growth_fund h3,
+.liquidity_fund h3,
+#get_to_know_more_with_video h2,
+#investing_intro h2,
+#added_value h2,
+#invest_future_oriented_business h2,
+#invest_future_oriented h2,
+#about h2,
+#get_to_know_more h2,
+#download_brochure h2,
+.fund_return_figures th {
+    letter-spacing: 1.4px;
+}
+
+header h1,
+.overall_total {
+    line-height: 42px;
+}
+
+.fund_return_figures td {
+    line-height: 40px;
+}
+
+h1,
+#our_safety_measures h2,
+#the_team h2,
+#our_funds h2,
+#featured h2,
+#partners h2,
+#about_the_fund h2,
+#get_to_know_more_with_video p.subtitle,
+#how_can_i_invest p.subtitle,
+#investing_intro p.subtitle,
+#added_value p.subtitle,
+#invest_future_oriented_business,
+#invest_future_oriented,
+#download_brochure p.subtitle,
+#about p.subtitle,
+#get_to_know_more p.subtitle {
+    line-height: 31px;
+}
+
+.website li,
+.faq .answer,
+.website p,
+#our_funds ul li,
+#about_the_fund ul li {
+    line-height: 28px;
+}
+
+nav .header_buttons button,
+nav .header_buttons a,
+nav #mobile_menu a,
+.subtotal,
+h3 span {
+    line-height: 26px;
+}
+
+header section p,
+p.small,
+.faq button {
+    line-height: 24px;
+}
+
+h2,
+.summary h2 button {
+    line-height: 22px;
+}
+
+footer nav,
+h3,
+span.diff .value,
+.details ul li,
+nav span,
+p,
+p.subtitle,
+.guest li,
+a,
+input[type="submit"],
+button,
+.button,
+.summary button {
+    line-height: 18px;
+}
+
+.reference h4,
+.reference p,
+h4,
+th,
+tfoot,
+td {
+    line-height: 17px;
+}
+
+.details span.diff .value,
+.details span.diff,
+span.diff,
+#focal_points .focal_point {
+    line-height: 16px;
+}
+
+.growth_fund h3,
+.liquidity_fund h3,
+#get_to_know_more_with_video h2,
+#investing_intro h2,
+#added_value h2,
+#invest_future_oriented_business,
+#invest_future_oriented,
+#about h2,
+#get_to_know_more h2,
+#download_brochure h2,
+.fund_return_figures th {
+    line-height: 13px;
+}
+
+/*
+* TEXT ALIGNMENT
+*/
+
+.faq .question,
+.align-left,
+table tbody th,
+.fund_return_figures th {
+    text-align: left;
+}
+
+.guest main h1,
+#footer_menu,
+#our_safety_measures h2,
+#the_team h2,
+header h1:not(#header_headline_block h1),
+header p.subtitle,
+.pagination,
+#our_funds h2,
+#featured h2,
+#partners h2,
+#request_info_form_top .privacy_declaration,
+.align-center,
+.button,
+.summary > button,
+#footer_logo,
+#form_success,
+#mobile_menu_group,
+.tooltip .tooltiptext {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+table th,
+table td {
+    vertical-align: top;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+header a:not(header #request_info_form_top a),
+#about a,
+.button,
+.close:hover,
+.details a,
+#guest a,
+nav a,
+.tooltip a {
+    text-decoration: none;
+}
+
+a,
+#registerpage form input::file-selector-button,
+#dark_mode_switch,
+.link,
+.close:hover,
+input[type="submit"],
+button {
+    cursor: pointer;
+}
+
+input[type="submit"]:disabled,
+button:disabled {
+    cursor: not-allowed;
+}
+
+/**
+* WIDTH AND HEIGHT
+*/
+
+html,
+body {
+    min-height: 100vh;
+}
+
+.fundplot {
+    max-height: 454px;
+}
+
+.modal,
+.modal_content {
+    height: 100%;
+}
+
+#growthfundpage ul li::before,
+#liquidityfundpage ul li::before,
+#the_team ul li::before {
+    width: 1rem;
+}
+
+html,
+body {
+    width: 100vw;
+}
+
+#invest_with_blockchaintraders .inner .block #request_info_form_top,
+#faqs button,
+.button_group button,
+.details li,
+form
+    input:not(input[type="submit"]):not(input[type="radio"]):not(
+        input[type="checkbox"]
+    ),
+form select,
+form textarea,
+#form_success button,
+.guest form,
+.guest input:not(input[type="checkbox"]),
+.guest button,
+header,
+header nav,
+header nav #menubar,
+#mobile_menu .header_buttons a,
+.website footer .inner,
+main,
+footer,
+#mobile_menu_button,
+.modal,
+.modal button,
+.summary,
+section,
+section.with_details button:not(.summary_inner button):not(.pagination button),
+table,
+#invest_with_blockchaintraders,
+#focal_points {
+    width: 100%;
+}
+
+.admin form label:not(.modal form label),
+.portal form label:not(.modal form label) {
+    width: 160px;
+}
+
+.website section.fund_info {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+}
+
+.website section.fund_info table {
+    margin-top: 1rem;
+}
+
+.fund_info table,
+table.fund_return_figures {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.fund_return_figures th {
+    width: 33%;
+}
+
+.fund_info:not(.documentation) table th,
+.fund_info:not(.documentation) table td {
+    width: 50%;
+}
+
+.website .fund_info.documentation table {
+    table-layout: auto;
+}
+
+.admin .actions {
+    min-width: 100px;
+}
+
+.dropdown_content {
+    min-width: 80px;
+}
+
+.dropdown_content a {
+    white-space: nowrap;
+}
+
+#form_success {
+    max-width: 350px;
+}
+
+.guest header,
+.guest main,
+.guest footer {
+    max-width: 300px;
+}
+
+#our_funds .block ul {
+    max-width: 350px;
+}
+
+#setPasswordPage.guest header,
+#setPasswordPage.guest main,
+#setPasswordPage.guest footer {
+    max-width: 600px;
+}
+
+.portal header nav,
+.admin header nav,
+header nav #menubar,
+main,
+section,
+section .inner,
+.website footer .inner,
+footer {
+    max-width: 980px;
+}
+
+.fundplot {
+    margin: 0 auto;
+    width: 100%;
+    max-width: calc(100vw - 4rem);
+}
+
+.fundplot::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+header,
+#homepage.website main,
+#invest_with_blockchaintraders,
+#focal_points,
+html,
+body,
+.website footer {
+    max-width: 100%;
+}
+
+/**
+* MARGIN AND PADDING
+*/
+
+#our_funds ul,
+#the_team p,
+#our_safety_measures p,
+html,
+body,
+section.with_details hr,
+.fund_info hr,
+nav.pagination p,
+.reference h4,
+.reference p {
+    margin: 0;
+}
+
+header,
+header nav,
+header nav #menubar,
+main,
+section,
+section .inner,
+.website footer .inner,
+footer,
+.summary h2 {
+    margin: 0 auto;
+}
+
+#about_intro p:first-child,
+.faq .answer {
+    margin-top: 0;
+}
+
+#liquidityfundpage #about_the_fund table {
+    margin-top: 1rem;
+}
+
+.tooltip:hover::after {
+    margin-left: -5px;
+}
+
+#hamburger {
+    margin: 0 1rem;
+}
+
+.website h2,
+#registerpage form h2 {
+    margin: 1rem 0 0 0;
+}
+
+#our_safety_measures h2 {
+    margin-bottom: 1rem;
+}
+
+#registerpage form p {
+    margin: 1rem 0 0 0;
+}
+
+#homepage.website section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.summary p {
+    margin: 0 0 1rem 0;
+}
+
+#our_funds h2,
+.guest header,
+.guest main,
+.guest footer {
+    margin: 1rem 0;
+}
+
+#growthfundpage ul li::before,
+#liquidityfundpage ul li::before,
+#the_team ul li::before {
+    margin-left: -1rem;
+}
+
+#invest_with_blockchaintraders ul li::before {
+    margin-right: 0.5rem;
+}
+
+.filters input,
+.filters label,
+.filters select {
+    margin-right: 1rem;
+}
+
+.safetyMeasure h3,
+.heading h1 {
+    margin-bottom: 0.5rem;
+}
+
+h3 span {
+    margin-top: 0.4rem;
+}
+
+.heading p {
+    margin-top: 0.5rem;
+}
+
+#recovery_codes {
+    margin-bottom: 1rem;
+}
+
+.button_group button {
+    margin: 0.5rem 0;
+}
+
+.modal_content {
+    margin: auto;
+}
+
+.website header,
+nav.pagination,
+#faqpage section,
+html,
+body,
+.details ul,
+section.with_details .summary .details,
+section.with_details,
+.summary h2 button {
+    padding: 0;
+}
+
+#desktop_hr,
+.team_member,
+.website main section {
+    padding: 1rem 0;
+}
+
+#footer_details {
+    padding: 1rem 0 0 0;
+}
+
+header nav .dropdown_button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+span.diff {
+    padding: 0.3rem 0.4rem;
+}
+
+nav a,
+header nav span {
+    padding: 0.5rem;
+}
+
+#dark_mode_switch {
+    padding-right: 0;
+}
+
+.reference {
+    padding: 0.5rem 0;
+}
+
+.fund .details table tfoot th,
+.fund .details table tfoot td,
+.faq button {
+    padding: 1rem 0;
+}
+
+#the_team ul li {
+    padding: 0.2rem 0;
+}
+
+#growthfundpage ul,
+#liquidityfundpage ul,
+.details tr th,
+.details tr td,
+.details ul li {
+    padding: 0.4rem 0;
+}
+
+.heading,
+header nav,
+.fund_info h3 {
+    padding: 0 1rem;
+}
+
+#our_funds .block ul {
+    padding-bottom: 0.5rem;
+}
+
+table th,
+table td {
+    padding: 0.5rem 1rem;
+}
+
+.tooltip .tooltiptext {
+    padding: 5px 10px;
+}
+
+.website form input[type="text"] {
+    padding: 12px 0;
+}
+
+#registerpage input[type="text"],
+#registerpage select,
+.website .modal form input[type="text"],
+.website .modal form input[type="number"],
+.website .modal form select,
+.website .modal form textarea,
+.admin form input[type="text"],
+.admin form input[type="number"],
+.admin form select,
+.admin form textarea,
+.guest form input[type="text"],
+.guest form input[type="number"],
+.guest form input[type="password"],
+.guest form select,
+.guest form textarea,
+.portal form input[type="text"],
+.portal form input[type="number"],
+.portal form input[type="password"],
+form input[type="date"],
+.portal form select,
+.portal form textarea,
+.filters input,
+.filters select {
+    padding: 12px 12px;
+}
+
+#footer_menu {
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.team_member_details,
+.pagination button {
+    padding: 0.5rem;
+}
+
+#our_funds ul li {
+    padding: 0.5rem 0;
+}
+
+button.link {
+    padding: 0.3rem 0;
+}
+
+#registerpage form input::file-selector-button,
+input[type="submit"],
+button,
+.button {
+    padding: 13px 32px;
+}
+
+.header_buttons button,
+.header_buttons a {
+    padding: 0.5rem 0.8rem;
+}
+
+#about_the_fund {
+    padding-top: 0;
+}
+
+#request_info_form_top .privacy_declaration {
+    padding-top: 1rem;
+}
+
+header,
+#our_funds .block,
+footer,
+.guest header,
+.guest main,
+main,
+.modal_content,
+nav,
+#recovery_codes,
+section,
+section.with_details .details,
+section.with_details .summary .summary_inner {
+    padding: 1rem;
+}
+
+.safetyMeasure,
+#invest_with_blockchaintraders #request_info_form_top {
+    padding: 1.5rem;
+}
+
+.safetyMeasure .icon {
+    padding-top: 0.5rem;
+}
+
+section.with_details.fund .details:not(.summary .details) {
+    padding: 2rem;
+}
+
+section#our_funds ul,
+section#funds ul,
+#growthfundpage ul,
+#liquidityfundpage ul,
+#invest_with_blockchaintraders ul {
+    padding-left: 0;
+}
+
+.modal form label {
+    padding-left: 2px;
+}
+
+.website nav .dropdown_button i {
+    padding-left: 0.4rem;
+}
+
+#our_funds ul li span,
+.overall_total,
+.subtotal,
+.reference div {
+    padding-left: 0.5rem;
+}
+
+#growthfundpage ul,
+#liquidityfundpage ul,
+#the_team ul {
+    padding-left: 1rem;
+}
+
+#about a {
+    padding-bottom: 0.3rem;
+}
+
+.fund_info table th i {
+    padding-right: 0.5rem;
+}
+
+/**
+* FLOAT
+*/
+
+#faqpage button .question {
+    float: left;
+}
+
+#faqpage button i,
+.details ul li a,
+h2 button {
+    float: right;
+}
+
+/**
+* DISPLAY TYPES
+*/
+
+.hide,
+#homepage #webheader:not(.stickyMobile):not(.stickyDesktop) #menu_invest_button,
+.website_knowledge_base
+    #webheader:not(.stickyMobile):not(.stickyDesktop)
+    #menu_invest_button,
+#total_value .details,
+#achieved_return .details,
+#dark_mode_switch span,
+#menu,
+.faq .answer,
+.dropdown_content,
+.modal,
+.fund hr {
+    display: none;
+}
+
+.dropdown_content a,
+.dropdown:hover .dropdown_content,
+.button_group button /* Make the buttons appear below each other */ {
+    display: block;
+}
+
+.website section.fund_info.documentation tr th,
+.faq button,
+header nav,
+header nav #menubar,
+header nav .header_buttons {
+    display: flex;
+}
+
+header nav #mobile_menu .header_buttons {
+    flex-direction: column;
+}
+
+#our_funds h3 span,
+.dropdown,
+#the_team ul li::before,
+#growthfundpage ul li::before,
+#liquidityfundpage ul li::before,
+.button,
+form label,
+.tooltip {
+    display: inline-block;
+}
+
+#invest_with_blockchaintraders .block:last-child,
+#get_to_know_more form,
+#download_brochure form,
+#featured_images,
+#partners_images,
+#our_funds .block,
+#our_funds ul li,
+#request_info_form_top form,
+#invest_with_blockchaintraders .reference,
+section#the_team,
+section#our_safety_measures,
+body,
+#footer_details,
+.guest header,
+.guest footer,
+#mobile_menu_group,
+#mobile_menu .modal_content,
+.modal_content,
+main,
+.total_and_diff {
+    display: grid;
+}
+
+/**
+* GRID
+*/
+
+header {
+    grid-area: header;
+}
+main {
+    grid-area: content;
+}
+footer {
+    grid-area: footer;
+}
+#mobile_menu_group {
+    grid-area: central;
+}
+#mobile_menu_button {
+    grid-area: bottom;
+}
+
+.admin body {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header"
+        "content";
+}
+
+.admin main {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-content: start;
+    align-items: start;
+}
+
+.guest body {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+}
+
+.portal body {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+}
+
+.website main {
+    align-content: start;
+}
+
+.website body {
+    display: block;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+}
+
+#mobile_menu .modal_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+        "central"
+        "bottom";
+}
+
+#featured_images,
+#partners_images {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total_and_diff {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+}
+
+#our_funds ul li,
+#invest_with_blockchaintraders .reference {
+    grid-template-columns: auto 1fr;
+}
+
+#our_funds .block {
+    grid-template-rows: auto 1fr auto;
+}
+
+#request_info_form_top input:nth-child(1),
+#get_to_know_more form input:nth-child(1),
+#get_to_know_more form input:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#request_info_form_top input:nth-child(1),
+#download_brochure form input:nth-child(1),
+#download_brochure form input:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#request_info_form_top input:nth-child(2),
+#get_to_know_more form input:nth-child(2),
+#get_to_know_more form input:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#request_info_form_top input:nth-child(2),
+#download_brochure form input:nth-child(2),
+#download_brochure form input:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#request_info_form_top input:nth-child(3),
+#request_info_form_top input:nth-child(4),
+#request_info_form_top button,
+#get_to_know_more form button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#request_info_form_top input:nth-child(3),
+#request_info_form_top input:nth-child(4),
+#request_info_form_top button,
+#download_brochure form button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.success_message {
+    grid-column: 1 / span 2;
+}
+
+body {
+    gap: 0px;
+}
+
+header nav .header_buttons,
+section#the_team,
+.guest header,
+.guest main,
+.guest footer,
+.total_and_diff {
+    gap: 4px;
+}
+
+section#our_safety_measures,
+.total_and_diff,
+#featured_images,
+#partners_images,
+.admin main,
+.portal main {
+    gap: 1rem;
+}
+
+#request_info_form_top form,
+#get_to_know_more form {
+    grid-column-gap: 12px;
+    grid-row-gap: 1rem;
+}
+
+#request_info_form_top form,
+#download_brochure form {
+    grid-column-gap: 12px;
+    grid-row-gap: 1rem;
+}
+
+.guest body,
+.modal_content {
+    align-content: center;
+}
+
+ul li,
+#invest_with_blockchaintraders .reference,
+.total_and_diff,
+.guest header,
+.guest main,
+.guest footer,
+header nav,
+header nav #menubar {
+    align-items: center;
+}
+
+#total_value,
+#achieved_return {
+    align-self: start;
+}
+
+.fund .details,
+#mobile_menu_group {
+    align-self: center;
+}
+
+#about .block:nth-child(1) {
+    place-self: center;
+}
+
+#invest_with_blockchaintraders .inner .block body,
+.guest header,
+.guest footer {
+    justify-items: center;
+}
+
+.total_and_diff {
+    justify-items: left;
+}
+
+#invest_with_blockchaintraders .block:last-child,
+.guest body,
+.modal_content {
+    justify-content: center;
+}
+
+.faq button,
+header nav,
+header nav #menubar,
+header nav .header_buttons,
+#footer_details {
+    justify-content: space-between;
+}
+
+.request_info_form_block {
+    justify-self: right;
+}
+
+/**
+* POSITIONING
+*/
+
+body {
+    position: relative;
+}
+
+#webheader {
+    top: -100%;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+@media (max-width: 700px) {
+    .stickyMobile {
+        position: fixed !important;
+        top: 0% !important;
+        width: 100%;
+        z-index: 99;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        transition: top 0.5s ease-in-out;
+        left: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .stickyDesktop {
+        position: fixed !important;
+        top: 0% !important;
+        width: 100%;
+        z-index: 99;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        transition: top 0.5s ease-in-out;
+        left: 0;
+    }
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+}
+
+.dropdown,
+.modal_content,
+.tooltip {
+    position: relative;
+}
+
+.dropdown_content {
+    position: absolute;
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.tooltip:hover::after {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+}
+
+.tooltip .tooltiptext {
+    position: absolute;
+    bottom: calc(100% + 5px);
+    left: calc(50% - 15px);
+}
+
+.dropdown_content,
+.modal,
+.tooltip .tooltiptext {
+    z-index: 999;
+}
+
+.fund .summary {
+    overflow: hidden;
+}
+
+/* || Admin post create / edit page */
+
+.admin .tab .tablink {
+    display: inline;
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.admin .tab .tablink:not(:first-child) {
+    margin-left: -4px;
+}
+
+.admin .tab .tablink.active {
+    color: white;
+    background-color: #2c82be;
+}
+
+.admin .tabcontent {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+}
+
+.admin .cke_contents {
+    min-height: 300px;
+}
+
+.admin .upload_with_preview {
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.admin .previewbox {
+    margin: 1rem 0;
+    background-color: lightgray;
+    border: 1px solid #2c82be;
+}
+
+.admin .previewbox img {
+    display: block;
+}
+
+.admin .previewbox .preview_placeholder {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.admin video {
+    max-width: 100%;
+}
+
+/* || Portal Dashboard */
+
+html#dashboardpage {
+    font-size: 1.7vh;
+}
+
+#dashboardpage body {
+    padding: 1.5rem 10rem;
+}
+
+#dashboardpage header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+#dashboardpage main {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+#dashboardpage section {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    align-content: start;
+}
+
+#dashboardpage section .fund_returns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
+
+#dashboardpage header,
+#dashboardpage section {
+    background-color: #f4f4f4;
+}
+
+#dashboardpage section .item {
+    background-color: #ffffff;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+}
+
+#dashboardpage section .plot {
+    overflow: hidden;
+}
+
+#dashboardpage .fundplot {
+    max-height: 40vh;
+}
+
+#dashboardpage h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#dashboardpage h3 {
+    font-size: 1.2rem;
+}
+
+#dashboardpage p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#dashboardpage .participation_returns p {
+    display: flex;
+    align-items: center;
+}
+
+#dashboardpage .participation_returns .value {
+    line-height: 3rem;
+    font-size: 3rem;
+}
+
+#dashboardpage .participation_returns .diff {
+    line-height: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+#dashboardpage .fund_returns p {
+    line-height: 2.4rem;
+    font-size: 2.4rem;
+}
+
+#dashboardpage .with_left_border {
+    border-left: 3px solid #66bd51;
+    padding: 0 0.8rem;
+}
+
+#dashboardpage.dark-mode header,
+#dashboardpage.dark-mode section {
+    background-color: black;
+}
+
+#dashboardpage.dark-mode section .item {
+    background-color: #161823;
+}
+
+#dashboardpage.dark-mode h2,
+#dashboardpage.dark-mode h3,
+#dashboardpage.dark-mode p,
+#dashboardpage.dark-mode span:not(.negative) {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* || Website blog page */
+
+#bloggrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.blog_grid_post img {
+    border-radius: 4px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    max-height: 300px;
+}
+
+.blog_grid_post .publication_date {
+    font-size: 0.7rem;
+}
+
+.website .blog_grid_post h2 {
+    height: 2.5rem;
+}
+
+.blog_grid_post p {
+    margin: 0.3rem 0;
+}
+
+#blogpage .pagination {
+    padding: 1rem;
+}
+
+/* || Website blog post page */
+
+#postpage header .heading {
+    text-align: center;
+}
+
+#postpage header h1 {
+    margin: auto;
+    max-width: 940px;
+}
+
+#postpage.website main section#blog_article {
+    padding-bottom: 2rem !important;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#blog_article p:first-child {
+    margin-top: 0;
+}
+
+#blog_article img,
+#blog_article video {
+    max-width: 100%;
+    margin: 1rem auto 1rem auto;
+    display: block;
+}
+
+#postpage.website.dark-mode section#blog_contact {
+    margin: 0 0 2.2rem 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#blog_contact h2,
+#blog_contact p {
+    margin: 0.5rem 0;
+}
+
+#blog_contact button {
+    color: #ffffff;
+    background-color: #2c82be;
+    border-color: #2c82be;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#blog_contact button:hover {
+    color: #2c82be;
+    background-color: #2c82be00;
+}
+
+#postpage header .heading {
+    min-height: 100px;
+}
+
+@media (min-width: 700px) {
+    #postpage header .heading {
+        min-height: 250px;
+    }
+}
+
+/* || Mobile styles */
+@media (max-width: 700px) {
+    #desktop_hr,
+    header nav #header-nav-right .header_buttons,
+    #safety_intro .image_block,
+    #about_intro .image_block,
+    #about .image_block,
+    #focal_points,
+    .details,
+    .fund .summary button:not(.summary_inner button) {
+        display: none;
+    }
+
+    iframe {
+        width: 100%;
+        height: 220px;
+    }
+
+    section#our_funds .block {
+        margin-bottom: 0.2rem;
+    }
+
+    header section {
+        padding: 0px;
+    }
+
+    .block {
+        padding-bottom: 1rem;
+    }
+
+    #featured_images,
+    #partners_images {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        justify-items: center;
+    }
+
+    #featured_images a,
+    #partners_images a {
+        grid-column: span 2;
+    }
+
+    #featured_images a:nth-last-child(1):nth-child(odd),
+    #partners_images a:nth-last-child(1):nth-child(odd) {
+        grid-column: 2 / span 2;
+    }
+
+    #featured_images img,
+    #partners_images img {
+        max-width: 100%;
+    }
+
+    header nav .header_buttons {
+        gap: 1rem;
+    }
+
+    .website header nav {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    #invest_with_blockchaintraders .inner .block {
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    .team_member img {
+        width: 100%;
+        height: auto;
+    }
+
+    #growthfundpage main,
+    #liquidityfundpage main {
+        grid-row-gap: 0.4rem;
+    }
+
+    #invest_with_blockchaintraders .block:last-child {
+        justify-content: normal;
+    }
+
+    .website .calendly-badge-widget .calendly-badge-content {
+        max-width: 100px;
+        padding: 0 0.2rem;
+    }
+
+    #homepage.website section#invest_with_blockchaintraders,
+    #invest_with_blockchaintraders div.block.header_overlay_image {
+        padding-bottom: 0;
+    }
+
+    .header_overlay_image img {
+        max-width: 75%;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    /* || Website blog post page */
+
+    #postpage header h1 {
+        line-height: 1.5;
+        font-size: 1.4rem;
+    }
+}
+
+/* || Desktop styles */
+@media (min-width: 700px) {
+    /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .stickyDesktop {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .fundplot {
+        width: 90%;
+    }
+
+    .website header nav {
+        padding: 1rem;
+    }
+
+    #homepage header section#invest_with_blockchaintraders {
+        padding-top: 3.5rem;
+        padding-bottom: 4.5rem;
+    }
+    #homepage header section#focal_points {
+        padding: 1rem;
+    }
+
+    .portal
+        form
+        input:not(input[type="submit"]):not(input[type="radio"]):not(
+            input[type="checkbox"]
+        ),
+    .portal form select,
+    .portal form textarea,
+    .admin:not(.admin.posts)
+        form
+        input:not(input[type="submit"]):not(input[type="radio"]):not(
+            input[type="checkbox"]
+        ),
+    .admin form select,
+    .admin form textarea {
+        width: 512px;
+    }
+
+    .portal
+        .modal
+        form
+        input:not(input[type="submit"]):not(input[type="radio"]):not(
+            input[type="checkbox"]
+        ),
+    .portal .modal form select,
+    .portal .modal form textarea {
+        width: 100%;
+    }
+
+    form label.checkbox_label {
+        width: 380px;
+    }
+
+    #featured_images img,
+    #partners_images img {
+        max-width: 100%;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #dark_mode_switch span,
+    #menu,
+    #menu .dropdown {
+        display: inline-block;
+    }
+
+    #dark_mode_switch {
+        min-height: 32px;
+    }
+
+    .portal .dropdown_button,
+    #dark_mode_switch span {
+        line-height: 16px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    #dark_mode_switch span {
+        padding-left: 0.4rem;
+        padding-right: 1rem;
+        border-right: 1px solid rgba(255, 255, 255, 0.75);
+    }
+
+    .fund .summary,
+    .fund .details {
+        max-height: 454px;
+    }
+
+    #portalTitleBlock {
+        grid-area: portalTitleBlock;
+    }
+    #total_value {
+        grid-area: total_value;
+    }
+    #achieved_return {
+        grid-area: achieved_return;
+    }
+    #desktop_hr {
+        grid-area: desktop_hr;
+    }
+    #form_buttons {
+        grid-area: form_buttons;
+    }
+    #documents {
+        grid-area: documents;
+    }
+
+    #focal_points .inner {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+        justify-content: space-between;
+    }
+
+    #featured_images,
+    #partners_images {
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .focal_point {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+
+    .focal_point span {
+        padding-left: 0.5rem;
+    }
+
+    .heading {
+        padding: 2.5rem 0;
+    }
+
+    #growthfundpage main,
+    #liquidityfundpage main,
+    .website
+        main
+        section:not(#growthfundpage section):not(#liquidityfundpage section) {
+        padding: 3rem 0;
+    }
+
+    #homepage.portal main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "portalTitleBlock form_buttons"
+            "total_value      achieved_return"
+            "desktop_hr       desktop_hr"
+            "documents        documents";
+    }
+
+    #total_value .summary_inner,
+    #achieved_return .summary_inner {
+        height: 135px;
+    }
+
+    #registerpage form div,
+    .modal form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 1rem;
+        grid-row-gap: 0;
+    }
+
+    #registerpage form div p.half_width_on_desktop,
+    .modal form p.half_width_on_desktop {
+        grid-column: span 1;
+    }
+
+    .modal form h2,
+    #registerpage form div h2,
+    #registerpage form div p {
+        grid-column: 1 / span 2;
+    }
+
+    .modal form button {
+        grid-column: 2 / span 1;
+    }
+
+    .modal form p {
+        margin: 0;
+    }
+
+    .modal form label {
+        padding: 0.5rem 0 0.5rem 2px;
+    }
+
+    .modal form button {
+        margin-top: 1rem;
+    }
+
+    .modal form h1,
+    .modal form p,
+    section.fund {
+        grid-column: 1 / span 2;
+    }
+
+    #form_buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    #documents button,
+    .fund h2 button,
+    .fundSummaryButton,
+    #form_buttons hr {
+        display: none;
+    }
+
+    .fund {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    #documents .details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 0.5rem;
+    }
+
+    section#get_to_know_more_with_video,
+    section#added_value,
+    section#invest_future_oriented_business,
+    section#our_funds,
+    section#invest_future_oriented,
+    section#about,
+    section#get_to_know_more,
+    section#download_brochure,
+    section#safety_intro,
+    section#investing_intro,
+    section#about_intro,
+    section#funds {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    section#our_funds {
+        grid-column-gap: 1px;
+        grid-row-gap: 2rem;
+    }
+
+    section#our_funds h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    section#our_safety_measures .safetyMeasure,
+    section#fiscal_consequences_of_investing_in_crypto_with_your_business
+        .fiscalConsequences,
+    section#the_team .team_member {
+        display: grid;
+        grid-template-columns: auto 3fr;
+        gap: 20px;
+    }
+
+    #growthfundpage main,
+    #liquidityfundpage main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 0.4rem;
+    }
+
+    #growthfundpage #about_the_fund {
+        grid-row-start: 1;
+        grid-row-end: 7;
+    }
+
+    #liquidityfundpage #about_the_fund {
+        grid-row-start: 1;
+        grid-row-end: 8;
+    }
+
+    .modal_content {
+        max-width: 545px;
+    }
+
+    #footer_details {
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 1fr;
+    }
+
+    h1 {
+        font-size: 24px;
+        letter-spacing: -0.12px;
+        line-height: 31px;
+    }
+
+    .growth_fund h3,
+    .liquidity_fund h3 {
+        font-size: 9px;
+    }
+
+    h3 span {
+        font-size: 18px;
+    }
+
+    #our_funds ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #invest_with_blockchaintraders .inner .block #request_info_form_top {
+        max-width: 400px;
+    }
+
+    .header_overlay_image {
+        position: absolute;
+        bottom: 0;
+        right: 44%;
+        transform: translate(0%, 0);
+    }
+
+    .header_overlay_image img {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    /* || Website blog page */
+
+    #bloggrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* || Website blog post page */
+
+    #postpage header h1 {
+        width: 60%;
+    }
+}
+/* || PORTAL DOWNLOAD APP BAR */
+
+#download_app_bar {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    #download_app_bar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        background-color: white;
+
+        padding: 0.7rem 0.8rem;
+    }
+
+    #download_app_bar #close_button {
+        padding-right: 0.7rem;
+        font-size: 1.2rem;
+    }
+    #download_app_bar_text {
+        flex-grow: 1;
+
+        padding: 0 0.5rem;
+    }
+
+    #download_app_bar h2 {
+        margin: 0;
+
+        font-size: 0.65rem;
+    }
+
+    #download_app_bar p {
+        margin: 0;
+
+        font-size: 0.65rem;
+    }
+
+    #download_app_bar a {
+        color: rgba(255, 255, 255, 0.95);
+        background-color: #2c82be;
+        height: 32px;
+        width: 82px;
+        border-radius: 4px;
+
+        padding: 0.5rem 0.5rem;
+
+        font-size: 0.7rem;
+    }
+}
+
+/* || PORTAL HOME DOCUMENT AND FUND COLLAPSE */
+
+.clickable_on_mobile {
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .clickable_on_mobile {
+        cursor: default;
+    }
+}
+
+/* || GENERAL STYLES */
+
+* {
+    box-sizing: border-box;
+
+    font-family: Graphik;
+}
+
+section {
+    width: 100%;
+    max-width: 940px;
+}
+
+p {
+    font-weight: 300;
+}
+
+section h2 {
+    font-weight: 400;
+}
+
+@media (max-width: 700px) {
+    .hide_on_mobile {
+        display: none;
+    }
+}
+
+.no_bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.custom_bullet_icons li img {
+    padding-right: 0.8rem;
+}
+
+.custom_bullet_icons li {
+    display: flex; /* Vertically center icon and text */
+}
+
+.dark-mode .hideWhenDarkMode {
+    display: none;
+}
+
+html:not(.dark-mode) .hideWhenLightMode {
+    display: none;
+}
+
+video[poster] {
+    object-fit: fill;
+}
+
+/* || WEBSITE */
+
+.website #menu {
+    padding: 0.5rem 0;
+}
+
+.website #menu a {
+    padding: 0 0.5rem;
+}
+
+.website #menu .dropdown_content a {
+    padding: 0.5rem;
+}
+
+@media (min-width: 700px) {
+    .website #menu,
+    .website #menu a {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.website #menu .languages {
+    margin-left: 1rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.64);
+    padding-left: 1rem;
+}
+
+.website.dark-mode #menu .languages {
+    border-color: rgba(255, 255, 255, 0.64);
+}
+
+.languages img {
+    margin-right: 0.5rem;
+}
+
+.website header #header_headline_block {
+    justify-self: left;
+
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    padding: 1rem;
+
+    text-align: left;
+}
+
+#header_headline_block h1 {
+    background-clip: text;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 0;
+}
+
+/* || Desktop styles */
+@media (min-width: 700px) {
+    #header_headline_block h1 {
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: -0.11px;
+        line-height: 42px;
+    }
+}
+
+.header_form {
+    max-width: 340px;
+    border-radius: 4.39px;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.header_form form {
+    display: grid;
+}
+
+@media (max-width: 700px) {
+    .website header nav {
+        background-color: #0c0c16;
+    }
+}
+
+.website nav.stickyMobile,
+.website nav.stickyDesktop {
+    background-color: #0c0c16;
+}
+
+.website h2 {
+    margin: 1rem 0 0 0;
+}
+
+.website p {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.website.dark-mode .button_blue {
+    border: 2px solid #2c82be66;
+    background-color: transparent;
+}
+
+.website .button_blue:hover {
+    background-color: #2c82be52;
+}
+
+@media (min-width: 700px) {
+    .website body main section#our_funds {
+        grid-column-gap: 1px;
+        grid-row-gap: 2rem;
+    }
+}
+
+/* || COMPONENT GET TO KNOW MORE FORM */
+
+#get_to_know_more form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#get_to_know_more form #contact_form_firstname {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#get_to_know_more form #contact_form_lastname {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#get_to_know_more form #contact_form_email {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#get_to_know_more form #contact_form_phone {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+form #contact_form_interest_radio_buttons {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: none;
+}
+
+#request_info_form_top form #contact_form_interest_radio_buttons p,
+#request_info_form_top form #contact_form_interest_radio_buttons label {
+    color: #aaaaaa;
+}
+
+#get_to_know_more form #contact_form_interest_radio_buttons p,
+#get_to_know_more form #contact_form_interest_radio_buttons label {
+    color: #515151;
+}
+
+input[type="radio"] {
+    accent-color: var(--bct-blue-semi-transparant);
+}
+
+#get_to_know_more form #kb_register_form_submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.interest_radio_buttons {
+    display: grid;
+    grid-row-gap: 0.5rem;
+
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+    .interest_radio_buttons {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* || WEBSITE FOOTER */
+
+.website footer #footer_details h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.website footer #footer_details p {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 700px) {
+    .website footer #footer_details #directly_to {
+        grid-area: directly_to;
+    }
+    .website footer #footer_details #footer_fund_manager_details {
+        grid-area: footer_fund_manager_details;
+    }
+    .website footer #footer_details #footer_address {
+        grid-area: footer_address;
+    }
+    .website footer #footer_details #footer_phone {
+        grid-area: footer_phone;
+    }
+
+    #footer_details {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .website footer #footer_details {
+        grid-template-areas:
+            "directly_to                    directly_to"
+            "footer_fund_manager_details    footer_phone"
+            "footer_address                 footer_phone";
+
+        align-content: start;
+    }
+
+    #footer_address_branch_office_desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    #footer_address_branch_office_mobile {
+        display: none;
+    }
+}
+
+/* || WEBSITE HOME PAGE */
+
+#homepage #homepage_title {
+    background: linear-gradient(270deg, #66bd51 0%, #2c82be 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#homepage.website header #invest_with_blockchaintraders {
+    padding-bottom: 0.5rem;
+}
+
+#homepage.website header #header_headline_block {
+    /* background-color: rgba(0, 0, 0, 0.15); */
+    background: transparent;
+}
+
+#homepage.website header #header_headline_block > * {
+    background-color: transparent;
+    /* background: transparent; */
+}
+
+#homepage.website header #request_info_form_top {
+    background-color: #464646cc;
+}
+
+#homepage.website header #request_info_form_top h2,
+#homepage.website header #request_info_form_top a {
+    color: white;
+}
+
+#homepage.website header #request_info_form_top input {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #e0e0e01f;
+}
+
+.privacy_declaration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy_declaration img {
+    padding-bottom: 0.1rem;
+}
+.privacy_declaration span {
+    padding-left: 7px;
+}
+
+@media (max-width: 700px) {
+    #homepage.website header #invest_with_blockchaintraders {
+        background: 
+            /* Top radial gradient */ radial-gradient(
+                circle at bottom,
+                rgba(7, 28, 48, 0) 0%,
+                rgba(12, 12, 22, 0.2) 70%,
+                rgba(12, 12, 22, 0.5) 100%
+            ),
+            /* Bottom background */ /* Image */
+                url("../../public/assets/images/header_background.jpg") center
+                no-repeat;
+        background-color: #0c0c16;
+        background-size: 100%, 100%;
+    }
+
+    #homepage.website header video,
+    #homepage.website header .video_overlay {
+        display: none;
+    }
+
+    #homepage.website header #featured_images {
+        padding: 1.5rem 1rem 0rem 1rem;
+        row-gap: 1.8rem;
+    }
+}
+
+@media (min-width: 700px) {
+    #homepage.website header {
+        /* Telling our absolute positioned video to be relative to this element */
+        position: relative;
+
+        width: 100%;
+
+        /* Will not allow the video to overflow the container */
+        overflow: hidden;
+
+        /* Centering the container's content vertically and horizontally */
+        /* text-align: center; */
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    #homepage.website header video,
+    #homepage.website header .video_overlay {
+        /** Simulationg background-size: cover */
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #homepage.website header .video_overlay {
+        background: 
+            /* Top radial gradient */ radial-gradient(
+                circle at bottom,
+                rgba(7, 28, 48, 0.01) 0%,
+                rgba(12, 12, 22, 0.94) 100%
+            ),
+            /* Bottom radial gradient */
+                radial-gradient(circle at bottom, #071c3055 0%, #0c0c16 100%);
+        background-size: 100%, 100%;
+    }
+
+    #homepage.website header #webheader {
+        position: relative;
+        top: 0;
+
+        z-index: 9;
+    }
+
+    #homepage.website #invest_with_blockchaintraders .inner {
+        position: relative;
+        z-index: 8;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    #homepage.website header #header_headline_block {
+        justify-self: left;
+
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 4px;
+        padding: 1rem;
+
+        text-align: left;
+    }
+
+    #featured_images {
+        display: inline-grid;
+        grid-template-columns: repeat(5, auto);
+
+        grid-column: 1 / span 2;
+        justify-content: space-evenly;
+
+        padding-bottom: 0.7rem;
+    }
+}
+
+#featured_images a {
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+#featured_images img {
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+}
+
+#featured_images a:nth-child(1) {
+    width: 86px;
+}
+#featured_images a:nth-child(2) {
+    width: 148px;
+}
+#featured_images a:nth-child(3) {
+    width: 130px;
+}
+#featured_images a:nth-child(4) {
+    width: 125px;
+}
+#featured_images a:nth-child(5) {
+    width: 82px;
+}
+
+#homepage.website main section {
+    display: grid;
+
+    padding: 2.5rem 0;
+}
+
+@media (min-width: 700px) {
+    #homepage.website main section {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+#homepage.website main section .block h2 {
+    line-height: 13px;
+    letter-spacing: 1.4px;
+    font-size: 10px;
+}
+
+#homepage.website main section .block p.subtitle {
+    line-height: 31px;
+    letter-spacing: 0;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+#homepage.website main section .block p {
+    letter-spacing: 0;
+}
+
+#homepage.website #we_are_still_early_lottie {
+    grid-area: we_are_still_early_lottie;
+
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #homepage.website #we_are_still_early_lottie {
+        height: 500px;
+    }
+}
+
+#homepage.website #we_are_still_early_titles {
+    grid-area: we_are_still_early_titles;
+
+    text-align: center;
+}
+
+#homepage.website #we_are_still_early {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "we_are_still_early_lottie"
+        "we_are_still_early_titles"
+        "we_are_still_early_text";
+
+    gap: 10px 40px;
+}
+
+@media (min-width: 700px) {
+    #homepage.website #we_are_still_early {
+        grid-template-areas:
+            "we_are_still_early_lottie  we_are_still_early_lottie"
+            "we_are_still_early_titles  we_are_still_early_titles"
+            "we_are_still_early_text    we_are_still_early_text";
+    }
+}
+
+#homepage.website section#how_can_i_invest {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+
+    text-align: center;
+}
+
+.website #how_can_i_invest {
+    gap: 1rem;
+}
+
+/* || WEBSITE KNOWLEDGE BASE PAGES */
+
+.website.website_knowledge_base header nav {
+    background-color: transparent;
+}
+
+.website.website_knowledge_base nav.stickyMobile,
+.website.website_knowledge_base nav.stickyDesktop {
+    background-color: var(--light-gray-background);
+}
+
+.website_knowledge_base body {
+    background-color: var(--light-gray-background);
+}
+
+.website_knowledge_base header a:not(.button),
+.website_knowledge_base header a:not(.button) i,
+.website_knowledge_base header nav span {
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.website_knowledge_base body section {
+    padding-bottom: 2rem !important;
+    background-color: transparent;
+}
+
+.website_knowledge_base body section h2 {
+    margin: 0 0 0.2rem 0;
+}
+
+.website_knowledge_base body main section p.subtitle {
+    margin: 1rem 0;
+}
+
+@media (min-width: 700px) {
+    .website_knowledge_base body section {
+        padding-bottom: 4rem !important;
+    }
+}
+
+.website_knowledge_base body main section:not(:last-child) {
+    border-bottom: 1px solid rgba(216, 216, 216, 1) !important;
+}
+
+/* || WEBSITE KNOWLEDGE BASE LANDING PAGE */
+
+#knowledge_base_landing_page header {
+    background: 
+                /* Top gradient */ linear-gradient(
+            rgba(221, 234, 242, 0.64) 0%,
+            #ddeaf2 100%
+        ),
+        /* Bottom background */ /* Image */
+            url("../../public/assets/images/knowledge_base_landing/header_background_mobile.jpg")
+            center no-repeat;
+    background-color: var(--light-gray-background);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+    #knowledge_base_landing_page header {
+        background: 
+                    /* Top gradient */ linear-gradient(
+                rgba(221, 234, 242, 0.64) 0%,
+                #ddeaf2 100%
+            ),
+            /* Bottom background */ /* Image */
+                url("../../public/assets/images/knowledge_base_landing/header_background.jpg")
+                center no-repeat;
+        background-color: #0c0c16;
+        background-size: 100%, cover;
+        padding-bottom: 2.5rem;
+    }
+}
+
+#knowledge_base_landing_page #heading_knowledge_base_register p,
+#knowledge_base_landing_page #heading_knowledge_base_register {
+    color: var(--bct-black-semi-transparant);
+}
+
+#knowledge_base_landing_page #heading_knowledge_base_register .inner {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 700px) {
+    #knowledge_base_landing_page #heading_knowledge_base_register .inner {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #header_headline_block {
+    text-align: left;
+}
+
+@media (min-width: 700px) {
+    #knowledge_base_landing_page
+        #heading_knowledge_base_register
+        .inner
+        #header_headline_block {
+        padding-left: 0;
+    }
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #header_headline_block
+    h1 {
+    background-color: transparent;
+    background: linear-gradient(270deg, #66bd51 0%, #2c82be 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #header_headline_block
+    p {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #header_headline_block
+    li {
+    margin: 0.2rem 0;
+    font-weight: 400;
+}
+
+@media (max-width: 700px) {
+    #knowledge_base_landing_page
+        #heading_knowledge_base_register
+        .inner
+        #registration_form_block {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #knowledge_base_landing_page
+        #heading_knowledge_base_register
+        .inner
+        #registration_form_block,
+    #knowledge_base_landing_page
+        #heading_knowledge_base_register
+        .inner
+        #registration_form_block
+        .header_form {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    #knowledge_base_landing_page
+        #heading_knowledge_base_register
+        .inner
+        #registration_form_block
+        .header_form {
+        max-width: 400px;
+    }
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    h2 {
+    margin-bottom: 0.4rem;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_firstname {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_lastname {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_email {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_subscription_type_radio_buttons {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_coupon {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_subscription_type_radio_buttons
+    p {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+#knowledge_base_landing_page
+    #heading_knowledge_base_register
+    .inner
+    #registration_form_block
+    form
+    #kb_register_form_subscription_type_radio_buttons
+    div {
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+#knowledge_base_landing_page section > h2 {
+    margin: 1rem 0 0 0;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#knowledge_base_landing_page #about {
+    grid-column-gap: 6rem;
+}
+
+#knowledge_base_landing_page #about p.subtitle {
+    font-weight: 600;
+}
+
+#knowledge_base_landing_page #about p {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: var(--bct-black-semi-transparant);
+}
+
+#knowledge_base_landing_page #about .image_block {
+    display: block; /* Override the display none that is used to hide the image on other pages */
+}
+
+#knowledge_base_landing_page #about .image_block img {
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 600px) {
+    #knowledge_base_landing_page #about .image_block img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#knowledge_base_landing_page #subscriptions {
+    display: grid;
+    grid-row-gap: 2px;
+    grid-template-columns: 1fr;
+}
+
+#knowledge_base_landing_page #subscriptions h2 {
+    margin: 1rem 0 0.2rem 0;
+}
+
+@media (min-width: 600px) {
+    #knowledge_base_landing_page #subscriptions {
+        grid-column-gap: 2px;
+        grid-row-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #knowledge_base_landing_page #subscriptions h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+#knowledge_base_landing_page #subscriptions .block {
+    padding: 1rem;
+    background-color: white;
+}
+
+#knowledge_base_landing_page #subscriptions .block h3 {
+    background-color: transparent;
+    /* background: linear-gradient(270deg, #66BD51 0%, #2C82BE 100%); */
+    background: linear-gradient(270deg, #66bd51 0%, #2c82be 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    width: min-content;
+
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 600px) {
+    #knowledge_base_landing_page #subscriptions .block h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+#knowledge_base_landing_page #subscriptions .block p {
+    margin: 0 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--bct-black-semi-transparant);
+}
+
+#knowledge_base_landing_page #subscriptions .block p s {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#knowledge_base_landing_page #subscriptions .block ul {
+    display: inline-block;
+    padding: 0;
+}
+
+#knowledge_base_landing_page #subscriptions .block li::before {
+    width: 1rem;
+    content: "✓";
+    color: var(--bct-alt-green);
+
+    font-size: 16px;
+
+    margin-right: 0.5rem;
+}
+
+#knowledge_base_landing_page #subscriptions .block li {
+    list-style: none;
+
+    letter-spacing: 0.4px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#knowledge_base_landing_page #subscriptions .block li::before,
+#knowledge_base_landing_page #subscriptions .block li {
+    line-height: 32px;
+}
+
+#knowledge_base_landing_page #subscriptions .block .button {
+    width: 100%;
+
+    border: 2px solid var(--bct-alt-green-semi-transparant);
+    background-color: transparent;
+}
+
+#knowledge_base_landing_page #subscriptions .block .button:hover {
+    border-color: var(--bct-alt-green);
+}
+
+#knowledge_base_landing_page #subscriptions .block .button,
+#knowledge_base_landing_page #subscriptions .block .button i {
+    color: var(--bct-green);
+}
+
+#knowledge_base_landing_page #reviews h2 {
+    margin: 1rem 0 1.5rem 0;
+}
+
+#knowledge_base_landing_page #reviews .reviewContainer {
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 700px) {
+    #knowledge_base_landing_page #reviews .reviewContainer {
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#knowledge_base_landing_page #reviews .review {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#knowledge_base_landing_page #reviews .review h4 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+#knowledge_base_landing_page #reviews .review p {
+    margin-top: 0.5rem;
+}
+
+#knowledge_base_landing_page #reviews .review .foot {
+    display: flex;
+    align-items: center;
+}
+
+#knowledge_base_landing_page #reviews .review .foot img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+#knowledge_base_landing_page #get_to_know_more form input[type="text"] {
+    border-bottom: 1px solid rgba(216, 216, 216, 1);
+}
+
+#knowledge_base_landing_page
+    #kb_register_form_subscription_type_radio_buttons
+    p {
+    padding: 0.5rem 0 0 2px;
+}
+
+#knowledge_base_landing_page
+    .subscriptionModal
+    #kb_register_form_subscription_type_radio_buttons,
+#knowledge_base_landing_page .subscriptionModal p {
+    padding-left: 2px;
+    font-weight: 500;
+}
+
+#knowledge_base_landing_page
+    .subscriptionModal
+    #kb_register_form_subscription_type_radio_buttons
+    label {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+/* || WEBSITE KNOWLEDGE BASE REGISTER SUCCESS PAGE */
+
+#knowledge_base_registration_confirm_page main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    min-height: 70vh;
+}
+
+#knowledge_base_registration_confirm_page .container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    max-width: 350px;
+
+    text-align: center;
+}
+
+#knowledge_base_registration_confirm_page .container .checkmarkCircle {
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    background-color: #dae5ed;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#knowledge_base_registration_confirm_page .container h1 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#knowledge_base_registration_confirm_page .container p {
+    font-weight: 400;
+}
+
+#knowledge_base_registration_confirm_page .container .button {
+    margin-bottom: 1rem;
+    width: 100%;
+
+    border: 2px solid var(--bct-blue);
+    background-color: var(--bct-blue);
+    color: white;
+}
+
+#knowledge_base_registration_confirm_page .container .button:hover {
+    border: 2px solid var(--bct-blue);
+    background-color: transparent;
+    color: var(--bct-blue);
+}
+
+#knowledge_base_registration_confirm_page .container a {
+    text-decoration: none;
+}
+
+/* || WEBSITE KNOWLEDGE BASE REGISTER ERROR PAGE */
+
+#knowledge_base_registration_error_page main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    min-height: 70vh;
+}
+
+#knowledge_base_registration_error_page .container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    max-width: 350px;
+
+    text-align: center;
+}
+
+#knowledge_base_registration_error_page .container .checkmarkCircle {
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    background-color: rgba(204, 25, 25, 0.12);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#knowledge_base_registration_error_page .container h1 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#knowledge_base_registration_error_page .container p {
+    font-weight: 400;
+}
+
+#knowledge_base_registration_error_page .container .button {
+    margin-bottom: 1rem;
+    width: 100%;
+
+    border: 2px solid var(--bct-blue);
+    background-color: var(--bct-blue);
+    color: white;
+}
+
+#knowledge_base_registration_error_page .container .button:hover {
+    border: 2px solid var(--bct-blue);
+    background-color: transparent;
+    color: var(--bct-blue);
+}
+
+#knowledge_base_registration_error_page .container a {
+    text-decoration: none;
+}
+
+/* || LANDING PAGES */
+
+section#how_can_i_invest {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    text-align: center;
+}
+
+section#how_can_i_invest {
+    gap: 1rem;
+}
+
+#homepage.website #invest_future_oriented .lottie_animation {
+    -webkit-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+
+    border-radius: 4.39px;
+
+    overflow: hidden;
+}
+
+@media (min-width: 700px) {
+    #homepage.website #we_are_still_early_text {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
+
+#homepage.website #invest_future_oriented #secondLottie {
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #homepage.website #invest_future_oriented #secondLottie {
+        height: 253px;
+    }
+}
+
+#investingincryptowithyourbusiness.website
+    #invest_future_oriented_business
+    .lottie_animation {
+    -webkit-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+
+    border-radius: 4.39px;
+
+    overflow: hidden;
+}
+
+#investingincryptowithyourbusiness.website
+    #invest_future_oriented_business
+    #thirdLottie {
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #investingincryptowithyourbusiness.website
+        #invest_future_oriented_business
+        #thirdLottie {
+        height: 253px;
+    }
+}
+
+#whatisabitcoinfund.website #invest_future_oriented .lottie_animation {
+    -webkit-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+
+    border-radius: 4.39px;
+
+    overflow: hidden;
+}
+
+@media (min-width: 700px) {
+    #whatisabitcoinfund.website #we_are_still_early_text {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
+
+#whatisabitcoinfund.website #invest_future_oriented #secondLottie {
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #whatisabitcoinfund.website #invest_future_oriented #secondLottie {
+        height: 253px;
+    }
+}
+
+#whatiscryptoassetmanagement.website #added_value .lottie_animation {
+    -webkit-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 0.07);
+
+    border-radius: 4.39px;
+
+    overflow: hidden;
+}
+
+#whatiscryptoassetmanagement.website #added_value #forthLottie {
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #whatiscryptoassetmanagement.website #added_value #forthLottie {
+        height: 253px;
+    }
+}
+
+#whatisabitcoinfund.website #invest_future_oriented #fifthLottie {
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #whatisabitcoinfund.website #invest_future_oriented #fifthLottie {
+        height: 253px;
+    }
+}
+
+/* Create a flex container for the section */
+.section {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: space-between; /* Space items evenly between the columns */
+}
+
+/* Style each block within the section */
+.section .block {
+    width: calc(
+        50% - 20px
+    ); /* Set the width of each block to 50% of the container with some spacing */
+    margin-bottom: 20px; /* Add some vertical spacing between blocks */
+}
+
+/**
+* Video for SEO pages
+*/
+
+.iphone-frame {
+    max-width: 100%; /* Set the desired width for the iPhone frame */
+    margin: 0 auto; /* Center the frame horizontally */
+    position: relative;
+    background-color: #000; /* Background color of the frame */
+    border-radius: 20px; /* Rounded corners to mimic iPhone */
+    overflow: hidden; /* Hide any content outside the frame */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.iphone-frame iframe {
+    width: 240px;
+    height: 427px;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    #investing_intro {
+        grid-template-columns: 1fr; /* Use a single column for mobile */
+    }
+
+    /* Adjust the order and spacing of elements for mobile */
+    .iphone-frame {
+        order: 2; /* Display the video above the text */
+        margin-bottom: 20px; /* Add spacing between the video and text */
+    }
+}
+
+@media (max-width: 700px) {
+    #added_value .block.image_block {
+        order: 2; /* Display the video above the text */
+        margin-bottom: 20px; /* Add spacing between the video and text */
+    }
+}
+
+/* Style the button */
+.button.button_blue {
+    display: inline-block; /* Make the button inline-block */
+    padding: 10px 20px; /* Add padding to control button size */
+    margin-top: 10px auto; /* Add margin to separate the button from content above */
+    text-align: center;
+    line-height: 1;
+}
+
+@media (max-width: 700px) {
+    #invest_future_oriented .animation,
+    #added_value .animation {
+        order: 2; /* Display the video above the text */
+        margin-bottom: 20px; /* Add spacing between the video and text */
+    }
+}
+
+@media (max-width: 700px) {
+    #get_to_know_more_with_video .rtlz {
+        order: 2; /* Display the video above the text */
+        margin-bottom: 20px; /* Add spacing between the video and text */
+    }
+}
+
+.custom-heading {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Common styles for both sections */
+#investing_intro,
+#about .image_block,
+#added_value {
+    display: grid;
+    gap: 20px; /* Adjust the gap between the columns as needed */
+    justify-items: center; /* Center align items horizontally within each column */
+    align-items: center; /* Center align items vertically within each column */
+}
+
+/* Media query for screens with a maximum width of 768px (mobile) */
+@media (max-width: 700px) {
+    /* Set a single column layout for both sections on mobile */
+    #investing_intro,
+    #added_value {
+        grid-template-columns: 1fr;
+    }
+
+    /* Center-align the video or image within the single column */
+    .iphone-frame,
+    .block.image_block {
+        text-align: center;
+    }
+}
+
+#whatisabitcoinfund.website download_brochure section {
+    display: grid;
+    padding: 2, 5rem 0;
+}
+
+#whatiscryptoassetmanagement.website download_brochure section {
+    display: grid;
+    padding: 2, 5rem 0;
+}
+
+#investingincryptowithyourbusiness.website download_brochure section {
+    display: grid;
+    padding: 2, 5rem 0;
+}
+
+#footer_details {
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer_menu {
+    margin-top: 20px; /* Add spacing at the top*/
+}
+
+/* Additional styling for the Directly to links */
+#directly_to {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Add spacing between the Directly to title and links */
+}
+
+#directly_to a {
+    margin-bottom: 10px; /* Add spacing between links */
+    color: inherit; /* Use the same color as the surrounding text */
+    text-decoration: none; /* Remove underline from links */
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+}
+
+#directly_to a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
+
+.interested-heading {
+    font-size: 24px;
+    letter-spacing: -0.12px;
+    line-height: 31px;
+}
+
+/* || PORTAL */
+
+#header-nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-nav-left .dropdown {
+    margin-left: 1rem;
+    margin-bottom: 4px;
+}
+
+.portal #header-nav-left .dropdown .dropdown_button,
+.portal #header-nav-left .dropdown .dropdown_button i {
+    color: black;
+}
+
+.portal.dark-mode #header-nav-left .dropdown .dropdown_button,
+.portal.dark-mode #header-nav-left .dropdown .dropdown_button i {
+    color: var(--bct-dark-mode-text-on-dark);
+}
+
+.portal .dropdown_content {
+    min-width: 180px;
+}
+
+.portal.dark-mode .dropdown_content {
+    border: 1px solid var(--bct-dark-mode-dropdown-border);
+    background-color: var(--bct-dark-mode-card-background);
+}
+
+.portal .dropdown_content a {
+    padding: 0.8rem;
+}
+
+.portal.dark-mode .dropdown_content a:hover {
+    background-color: var(--bct-dark-mode-card-background-hover);
+}
+
+.portal:not(.dark-mode) #dark_mode_switch span {
+    border-color: black;
+}
+
+/* || PORTAL START PAGE */
+
+#contactpage.portal main,
+#startpage.portal main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#contactpage.portal main .container,
+#startpage.portal main .container {
+    text-align: center;
+}
+
+#contactpage.portal main .container > p,
+#startpage.portal main .container > p {
+    font-size: 0.9rem;
+}
+
+#contactpage.portal main .options,
+#startpage.portal main .options {
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr;
+
+    margin-top: 2rem;
+}
+
+@media (min-width: 700px) {
+    #contactpage.portal main .options,
+    #startpage.portal main .options {
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+
+        margin-top: 2rem;
+    }
+}
+
+#contactpage.portal main .options .option,
+#startpage.portal main .options .option {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 1rem 1.5rem;
+    background-color: white;
+
+    display: grid;
+    justify-items: center;
+}
+
+#contactpage.portal.dark-mode main .options .option,
+#startpage.portal.dark-mode main .options .option {
+    background-color: var(--bct-dark-mode-card-background);
+}
+
+@media (min-width: 700px) {
+    #startpage.portal main .options .option {
+        max-width: 230px;
+    }
+}
+
+#startpage.portal main .options .option:hover {
+    border: 1px solid var(--bct-blue-semi-transparant);
+}
+
+#startpage.portal main .options .option:hover {
+    cursor: pointer;
+}
+
+#contactpage.portal main .options .option img,
+#startpage.portal main .options .option img {
+    padding: 1rem;
+}
+
+#contactpage.portal main .options .option h2,
+#startpage.portal main .options .option a {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.1rem;
+}
+
+#contactpage.portal main .options .option h2 {
+    color: var(--bct-blue);
+}
+
+#startpage.portal main .options .option a {
+    text-decoration: none;
+}
+
+#startpage.portal main .options .option a {
+    border-bottom: 1px solid var(--bct-blue-semi-transparant);
+}
+
+#contactpage.portal main .options .option p,
+#startpage.portal main .options .option p {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* || PORTAL KNOWLEDGE BASE PAGE */
+/* || PORTAL KNOWLEDGE BASE ARCHIVE PAGE */
+
+#knowledgebasepage #page_title {
+    grid-area: page_title;
+}
+#knowledgebasepage #leftColumn {
+    grid-area: leftColumn;
+}
+#knowledgebasepage #rightColumn {
+    grid-area: rightColumn;
+}
+
+#knowledgebasepage main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-content: start;
+    grid-template-areas:
+        "page_title"
+        "rightColumn"
+        "leftColumn";
+}
+
+.portal main {
+    align-content: start;
+}
+
+@media (min-width: 700px) {
+    #knowledgebasepage main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        align-content: start;
+        grid-template-areas:
+            "page_title page_title"
+            "leftColumn rightColumn";
+    }
+}
+
+#knowledgebaseArchivePage main {
+    display: grid;
+    align-content: start;
+}
+
+#knowledgebasepage h1 {
+    margin-bottom: 0.2rem;
+}
+
+#knowledgebasepage main > div > h2 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#knowledgebasepage main section {
+    margin: 1rem 0;
+}
+
+#knowledgebasepage main section h3 {
+    display: flex;
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0;
+}
+
+#knowledgebasepage main section h3 img {
+    margin-right: 0.5rem;
+}
+
+#knowledgebasepage main section .linkWrap {
+    padding: 0.6rem 0;
+}
+
+#knowledgebasepage main section .linkWrap {
+    border-top: 1px solid var(--bct-light-gray);
+}
+
+#knowledgebasepage.dark-mode main section .linkWrap {
+    border-top: 1px solid var(--bct-dark-mode-gray-line);
+}
+
+#knowledgebasepage main section a,
+#knowledgebasepage main a {
+    font-weight: 300;
+    font-size: 0.9rem;
+
+    text-decoration: none;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid var(--bct-blue);
+}
+
+#knowledgebaseArchivePage main .blog_grid_post:first-child {
+    margin-top: 1.2rem;
+    border-top: 1px solid var(--bct-gray);
+    padding-top: 0.5rem;
+}
+
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post:not(:first-child) {
+    padding-top: 1.2rem;
+}
+
+#knowledgebaseArchivePage main .blog_grid_post:not(:last-child),
+#knowledgebasepage main section#latestUpdates .blog_grid_post:not(:last-child) {
+    border-bottom: 1px solid var(--bct-gray);
+    padding-bottom: 1.2rem;
+}
+
+#knowledgebaseArchivePage.dark-mode main .blog_grid_post:first-child {
+    border-top: 1px solid var(--bct-dark-mode-gray-line);
+    padding-top: 0.5rem;
+}
+
+#knowledgebaseArchivePage.dark-mode main .blog_grid_post:not(:last-child),
+#knowledgebasepage.dark-mode
+    main
+    section#latestUpdates
+    .blog_grid_post:not(:last-child) {
+    border-bottom: 1px solid var(--bct-dark-mode-gray-line);
+}
+
+.videoContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+#knowledgebasepage .videoContainer {
+    margin-bottom: 0.8rem;
+}
+
+#knowledgebasepage dialog .videoContainer {
+    margin-bottom: 0;
+}
+
+.videoContainer img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 115px !important;
+    height: 115px !important;
+
+    margin: 0 !important;
+}
+
+dialog .videoContainer img {
+    width: 125px !important;
+    height: 125px !important;
+}
+
+.videoContainer,
+#knowledgebasepage main section#latestUpdates .blog_grid_post:first-child img,
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post:first-child
+    video {
+    width: 100%;
+}
+
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post:first-child
+    video {
+    border-radius: 4px;
+}
+
+#knowledgebaseArchivePage main .blog_grid_post,
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post:not(:first-child) {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post:not(:first-child)
+    img {
+    margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+    #knowledgebaseArchivePage main .blog_grid_post,
+    #knowledgebasepage
+        main
+        section#latestUpdates
+        .blog_grid_post:not(:first-child) {
+        display: grid;
+        align-items: start;
+        grid-template-columns: 120px 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    #knowledgebaseArchivePage main .blog_grid_post > img,
+    #knowledgebasepage main section#latestUpdates .blog_grid_post > img {
+        display: none;
+    }
+}
+
+#knowledgebaseArchivePage main .blog_grid_post .container,
+#knowledgebasepage main section#latestUpdates .blog_grid_post .container {
+    padding-left: 0.5rem;
+}
+
+#knowledgebasepage main section#latestUpdates .blog_grid_post h2 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#knowledgebasepage
+    main
+    section#latestUpdates
+    .blog_grid_post
+    .publication_date {
+    margin: 0 0;
+    font-size: 0.6rem;
+    letter-spacing: 1.2px;
+    color: var(--bct-gray-text);
+}
+
+#knowledgebasepage main section#latestUpdates .blog_grid_post p.excerpt {
+    font-size: 0.8rem;
+    letter-spacing: 0.6px;
+    line-height: 1.6;
+    color: var(--bct-gray-text);
+}
+
+#knowledgebasepage.dark-mode
+    main
+    section#latestUpdates
+    .blog_grid_post
+    .publication_date,
+#knowledgebasepage.dark-mode
+    main
+    section#latestUpdates
+    .blog_grid_post
+    p.excerpt {
+    color: var(--bct-dark-mode-text-on-card);
+}
+
+#knowledgebasepage main section#latestUpdates .blog_grid_post a {
+    font-size: 0.8rem;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+}
+
+#knowledgebasepage main .alignRight {
+    text-align: right;
+}
+
+dialog#videoPopup {
+    width: 100%;
+    max-width: 800px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+dialog#videoPopup .dialog_content {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: none;
+
+    padding-top: 40px;
+}
+
+dialog#videoPopup .dialog_content .close {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+dialog#videoPopup .videoContainer {
+    display: block;
+    width: 100%;
+}
+
+dialog#videoPopup video {
+    width: 100%;
+    outline: none;
+}
+
+dialog::backdrop {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+@media (min-width: 700px) {
+    #knowledgebaseArchivePage main .head {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+}
+
+.search {
+    position: relative;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 7px;
+    font-size: 15px;
+    color: var(--bct-gray-text);
+}
+
+#searchInput {
+    text-indent: 30px;
+    border: 1px solid var(--bct-gray-line);
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    #searchInput {
+        width: 250px;
+    }
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+/* || PORTAL KNOWLEDGE BASE NEWS ARTICLE */
+
+#knowledgebaseNewsArticlePage section {
+    background-color: transparent;
+}
+
+#knowledgebaseNewsArticlePage:not(.dark-mode) #blog_contact {
+    background-color: white;
+}
+
+#knowledgebaseNewsArticlePage #blog_contact {
+    text-align: center;
+}
+
+/* || PORTAL KNOWLEDGE BASE STATIC ARTICLE */
+
+#knowledgebaseArticlePage main > a {
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+#knowledgebaseArticlePage #knowledgebaseArticlePageContent {
+    text-align: center;
+    padding: 0 1rem;
+    margin: auto;
+    max-width: 850px;
+}
+
+@media (max-width: 700px) {
+    #knowledgebaseArticlePage #knowledgebaseArticlePageContent {
+        text-align: left;
+        padding: 0;
+    }
+}
+
+#knowledgebaseArticlePage #knowledgebaseArticlePageContent h1 {
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+#knowledgebaseArticlePage #knowledgebaseArticlePageContent p {
+    padding: 0 1.5rem;
+    line-height: 2;
+    font-size: 0.9rem;
+    letter-spacing: 0.6px;
+}
+
+@media (max-width: 700px) {
+    #knowledgebaseArticlePage #knowledgebaseArticlePageContent h1 {
+        font-size: 1rem;
+    }
+
+    #knowledgebaseArticlePage #knowledgebaseArticlePageContent h1,
+    #knowledgebaseArticlePage #knowledgebaseArticlePageContent p {
+        padding: 0;
+    }
+}
+
+#knowledgebaseArticlePage #knowledgebaseArticlePageContent .videoContainer {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .videoContainer
+    video {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#knowledgebaseArticlePage #knowledgebaseArticlePageContent .downloadsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 700px) {
+    #knowledgebaseArticlePage #knowledgebaseArticlePageContent .downloadsGrid {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    grid-column-gap: 0.5rem;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 4px;
+    padding: 1.3rem 1rem;
+    background-color: white;
+}
+
+@media (min-width: 700px) {
+    #knowledgebaseArticlePage
+        #knowledgebaseArticlePageContent
+        .downloadsGrid
+        .downloadItem {
+        grid-template-columns: 1fr 120px;
+        grid-column-gap: 2rem;
+        padding: 1rem;
+    }
+}
+
+#knowledgebaseArticlePage.dark-mode
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem {
+    background-color: var(--bct-dark-mode-card-background);
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem
+    .downloadItemTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem
+    .downloadItemTitleContainer {
+    text-align: left;
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem
+    .downloadItemTitleContainer
+    img {
+    margin-right: 0.7rem;
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem
+    .downloadItemTitleContainer
+    h2 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+    #knowledgebaseArticlePage
+        #knowledgebaseArticlePageContent
+        .downloadsGrid
+        .downloadItem
+        .downloadItemTitleContainer
+        h2,
+    #knowledgebaseArticlePage
+        #knowledgebaseArticlePageContent
+        .downloadsGrid
+        .downloadItem
+        a {
+        font-size: 0.8rem;
+    }
+}
+
+#knowledgebaseArticlePage
+    #knowledgebaseArticlePageContent
+    .downloadsGrid
+    .downloadItem
+    a {
+    text-align: right;
+}
+
+/* || ADMIN */
+
+.admin .dropdown_button {
+    font-size: 14px;
+}
+
+.admin .dropdown_content {
+    min-width: 180px;
+}
+
+.admin .dropdown_content a {
+    padding: 0.8rem;
+}
+
+.admin.posts textarea {
+    width: 100%;
+}

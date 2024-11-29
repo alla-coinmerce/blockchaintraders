@@ -1,0 +1,6 @@
+@media (max-width: 700px) {
+    .personal-documents-list-item-doc-title {
+        display: inline-block;
+        max-width: calc(100vw - 145px);
+    }
+}
