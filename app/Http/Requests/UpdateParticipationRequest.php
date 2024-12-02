@@ -25,7 +25,12 @@ class UpdateParticipationRequest extends FormRequest
     public function rules()
     {
         return [
-            'qty' => 'required|numeric|min:1',
+            'qty' => [
+                'required',
+                'numeric',
+                'regex:/^\d+(\.\d{1,4})?$/', 
+                'min:1' 
+            ],
             'tag' => 'string|max:255|nullable'
         ];
     }

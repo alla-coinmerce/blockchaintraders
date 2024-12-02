@@ -19,7 +19,7 @@ class ParticipationCreate extends Component
     public $selectedFundId = '';
     public $purchaseMoment = '';
     public $availablePurchaseMoments = [];
-    public $qty = 1;
+    public $qty = 1.00;
     public $tag = '';
 
 
@@ -74,7 +74,12 @@ class ParticipationCreate extends Component
                 'required',
                 Rule::in($fundValueWhitelist)
             ],
-            'qty' => 'required|numeric|min:1',
+            'qty' => [
+                'required',
+                'numeric',
+                'regex:/^\d+(\.\d{1,4})?$/', 
+                'min:1' 
+            ],
             'tag' => 'string|max:255|nullable',
             // 'selectedBasketId' => $this->selectedOption === 'baskets' ? 'required|integer|exists:baskets,id' : '',
         ];

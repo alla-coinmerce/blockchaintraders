@@ -12,7 +12,7 @@
 
             <p>
                 <label for="qty">Quantity: <span aria-label="required">*</span></label>
-                <input type="number" step="1" inputmode="decimal" name="qty" value="{{ old('qty', $participation->qty) }}" class="@error('qty') is-invalid @enderror">
+                <input type="number" step="0.0001" inputmode="decimal" name="qty" value="{{ old('qty', $participation->qty) }}" class="@error('qty') is-invalid @enderror">
 
                 @error('qty')
                     <div class="alert alert-danger">{{ $message }}</div>

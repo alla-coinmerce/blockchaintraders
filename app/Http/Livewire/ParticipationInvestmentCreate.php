@@ -18,7 +18,7 @@ class ParticipationInvestmentCreate extends Component
     public $selectedFundId = '';
     public $purchaseMoment = '';
     public $availablePurchaseMoments = [];
-    public $qty = 1;
+    public $qty = 1.00;
     public $tag = '';
 
     protected function rules()
@@ -44,7 +44,12 @@ class ParticipationInvestmentCreate extends Component
                 'required',
                 Rule::in($fundValueWhitelist)
             ],
-            'qty' => 'required|numeric|min:1',
+            'qty' => [
+                'required',
+                'numeric',
+                'regex:/^\d+(\.\d{1,4})?$/', 
+                'min:1' 
+            ],
             'tag' => 'string|max:255|nullable'
         ];
     }
